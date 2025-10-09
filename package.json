@@ -3,7 +3,7 @@
   "displayName": "Path Switcher",
   "description": "Toggle relative <-> absolute JS paths easily in VS Code",
   "version": "1.0.0",
-  "publisher": "6a0fc9e4-0e0e-6aae-a6b9-f851bd17f537",
+  "publisher": "fatonyahmadfauzi",
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -48,9 +48,9 @@
   },
   "icon": "images/icon.png",
   "bugs": {
-    "url": "https://github.com/kianoland/path-switcher/issues"
+    "url": "https://github.com/fatonyahmadfauzi/Path-Switcher/issues"
   },
-  "homepage": "https://github.com/kianoland/path-switcher#readme",
+  "homepage": "https://github.com/fatonyahmadfauzi/Path-Switcher#readme",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
