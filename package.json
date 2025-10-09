@@ -5,13 +5,18 @@
   "version": "1.0.0",
   "publisher": "fatonyahmadfauzi",
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.105.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/fatonyahmadfauzi/Path-Switcher.git"
   },
   "categories": ["Other"],
+  "activationEvents": [
+    "onCommand:path-switcher.togglePath",
+    "onCommand:path-switcher.toAbsolute",
+    "onCommand:path-switcher.toRelative"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
