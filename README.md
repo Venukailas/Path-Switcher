@@ -1,51 +1,53 @@
 # 🪄 Path Switcher
 
-**Path Switcher** adalah ekstensi Visual Studio Code yang memudahkan kamu mengubah semua path di file (HTML, CSS, JS, gambar, dll) antara **relative path** ↔️ **absolute path** hanya dengan satu kombinasi tombol.
+**Path Switcher** is a Visual Studio Code extension that helps you easily switch all paths in a file (HTML, CSS, JS, images, etc.) between **relative paths** ↔️ **absolute paths** with just one keyboard shortcut.
 
 ---
 
-## ✨ Fitur
+## ✨ Features
 
-- 🔁 **Toggle otomatis** antara path relative ↔️ absolute
-- 💡 Mendukung path di:
+- 🔁 **Automatically toggles** between relative and absolute paths
+- 💡 Supports paths in:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` dalam CSS
-- ⚡ Dapat dijalankan lewat shortcut keyboard
-- 🧭 Mengubah semua path di satu file sekaligus (bukan hanya satu baris)
+  - `url("...")` inside CSS
+- ⚡ Can be triggered via keyboard shortcut
+- 🧭 Changes all paths in a file at once (not just one line)
 
 ---
 
-## 🧩 Instalasi
+## 🧩 Installation
 
-1. Unduh atau clone repository ini:
+1. Download or clone this repository:
    ```bash
    git clone https://github.com/kianoland/path-switcher
    cd path-switcher
    npm install
    ```
-2. Jalankan di mode pengembang:
-   Buka folder di VS Code
-   Tekan F5 → akan membuka jendela baru Extension Development Host
+2. Run in development mode:  
+   Open the folder in VS Code  
+   Press **F5** → this will open a new **Extension Development Host** window
 
 ---
 
-## ⌨️ Shortcut & Command
+## ⌨️ Shortcuts & Commands
 
-Gunakan perintah dan shortcut berikut untuk menjalankan ekstensi:
+Use the following commands and shortcuts to run the extension:
 
-| Fungsi                      | Command ID                 | Tombol           |
+| Function                    | Command ID                 | Shortcut         |
 | :-------------------------- | :------------------------- | :--------------- |
 | Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-| Ubah semua ke Absolute      | `path-switcher.toAbsolute` | `Ctrl + Alt + A` |
-| Ubah semua ke Relative      | `path-switcher.toRelative` | `Ctrl + Alt + R` |
+| Convert All to Absolute     | `path-switcher.toAbsolute` | `Ctrl + Alt + A` |
+| Convert All to Relative     | `path-switcher.toRelative` | `Ctrl + Alt + R` |
 
-## 🧠 Contoh
+---
 
-Lihat bagaimana Path Switcher mengubah path Anda secara instan.
+## 🧠 Example
 
-**Sebelum:**
+See how **Path Switcher** instantly changes your file paths.
+
+**Before:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -53,7 +55,7 @@ Lihat bagaimana Path Switcher mengubah path Anda secara instan.
 <img src="assets/logo.png" />
 ```
 
-**Setelah (Absolute):**
+**After (Absolute):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -61,7 +63,7 @@ Lihat bagaimana Path Switcher mengubah path Anda secara instan.
 <img src="/assets/logo.png" />
 ```
 
-**Setelah (Relative):**
+**After (Relative):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -71,21 +73,21 @@ Lihat bagaimana Path Switcher mengubah path Anda secara instan.
 
 ---
 
-## 🛠️ Pengembangan Lokal
+## 🛠️ Local Development
 
-Kompilasi TypeScript:
+Compile TypeScript:
 
 ```bash
 npm run compile
 ```
 
-Linting:
+Lint the code:
 
 ```bash
 npm run lint
 ```
 
-Jalankan tes:
+Run tests:
 
 ```bash
 npm test
@@ -93,6 +95,6 @@ npm test
 
 ---
 
-## 🧾 Lisensi
+## 🧾 License
 
 MIT © [Fatony Ahmad Fauzi](https://www.fatonyahmadfauzi.me/)
