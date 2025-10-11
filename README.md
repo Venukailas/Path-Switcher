@@ -1,5 +1,7 @@
 # 🪄 Path Switcher
 
+> 🌐 Available in other languages: [Bahasa Indonesia](docs/lang/README-ID.md) | [Français](docs/lang/README-FR.md) | [Deutsch](docs/lang/README-DE.md) | [日本語](docs/lang/README-JP.md) | [中文](docs/lang/README-ZH.md) | [Español](docs/lang/README-ES.md) | [Polski](docs/lang/README-PL.md) | [Русский](docs/lang/README-RU.md) | [Português](docs/lang/README-PT.md) | [한국어](docs/lang/README-KO.md)
+
 **Path Switcher** is a Visual Studio Code extension that helps you easily switch all paths in a file (HTML, CSS, JS, images, etc.) between **relative paths** ↔️ **absolute paths** with just one keyboard shortcut.
 
 ---
@@ -17,11 +19,17 @@
 
 ---
 
+## ✅ Supported VS Code Version
+
+- Visual Studio Code v1.85.0 or newer
+
+---
+
 ## 🧩 Installation
 
 1. Download or clone this repository:
    ```bash
-   git clone https://github.com/kianoland/path-switcher
+   git clone [https://github.com/kianoland/path-switcher](https://github.com/kianoland/path-switcher)
    cd path-switcher
    npm install
    ```
@@ -38,8 +46,8 @@ Use the following commands and shortcuts to run the extension:
 | Function                    | Command ID                 | Shortcut         |
 | :-------------------------- | :------------------------- | :--------------- |
 | Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-| Convert All to Absolute     | `path-switcher.toAbsolute` | `Ctrl + Alt + A` |
-| Convert All to Relative     | `path-switcher.toRelative` | `Ctrl + Alt + R` |
+| Convert All to Absolute     | `path-switcher.toAbsolute` | -                |
+| Convert All to Relative     | `path-switcher.toRelative` | -                |
 
 ---
 
