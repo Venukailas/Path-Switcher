@@ -1,6 +1,6 @@
 # 🪄 Path Switcher
 
-> 🌐 Dostępne w innych językach: [indonezyjski](docs/lang/README-ID.md) | [francuski](docs/lang/README-FR.md) | [niemiecki](docs/lang/README-DE.md) | [japoński](docs/lang/README-JP.md) | [chiński](docs/lang/README-ZH.md) | [hiszpański](docs/lang/README-ES.md) | [angielski](README.md) | [rosyjski](docs/lang/README-RU.md) | [portugalski](docs/lang/README-PT.md) | [koreański](docs/lang/README-KO.md)
+> 🌐 Dostępne w innych językach: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md)| [中文](README-ZH.md) | [Español](README-ES.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 **Path Switcher** to rozszerzenie do Visual Studio Code, które pomaga łatwo przełączać wszystkie ścieżki w pliku (HTML, CSS, JS, obrazy itp.) między **ścieżkami względnymi** ↔️ **ścieżkami bezwzględnymi** za pomocą jednego skrótu klawiaturowego.
 

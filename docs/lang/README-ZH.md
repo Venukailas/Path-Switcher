@@ -1,6 +1,6 @@
 # 🪄 Path Switcher
 
-> 🌐 其他语言版本: [印尼语](docs/lang/README-ID.md) | [法语](docs/lang/README-FR.md) | [德语](docs/lang/README-DE.md) | [日语](docs/lang/README-JP.md) | [英语](README.md) | [西班牙语](docs/lang/README-ES.md) | [波兰语](docs/lang/README-PL.md) | [俄语](docs/lang/README-RU.md) | [葡萄牙语](docs/lang/README-PT.md) | [韩语](docs/lang/README-KO.md)
+> 🌐 其他语言版本: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md)| [Español](README-ES.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 **Path Switcher** 是一个 Visual Studio Code 扩展，可帮助您通过一个键盘快捷键轻松地在文件（HTML、CSS、JS、图像等）中的**相对路径** ↔️ **绝对路径**之间切换所有路径。
 

@@ -1,6 +1,6 @@
 # 🪄 Path Switcher
 
-> 🌐 他の言語で利用可能: [Bahasa Indonesia](docs/lang/README-ID.md) | [Français](docs/lang/README-FR.md) | [Deutsch](docs/lang/README-DE.md) | [English](README.md) | [中文](docs/lang/README-ZH.md) | [Español](docs/lang/README-ES.md) | [Polski](docs/lang/README-PL.md) | [Русский](docs/lang/README-RU.md) | [Português](docs/lang/README-PT.md) | [한국어](docs/lang/README-KO.md)
+> 🌐 他の言語で利用可能: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 **Path Switcher**は、ファイル内のすべてのパス（HTML、CSS、JS、画像など）を、1 つのキーボードショートカットで**相対パス**↔️**絶対パス**に簡単に切り替えるのに役立つ Visual Studio Code 拡張機能です。
 

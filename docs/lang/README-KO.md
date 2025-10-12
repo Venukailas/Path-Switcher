@@ -1,6 +1,6 @@
 # 🪄 Path Switcher
 
-> 🌐 다른 언어로 보기: [인도네시아어](docs/lang/README-ID.md) | [프랑스어](docs/lang/README-FR.md) | [독일어](docs/lang/README-DE.md) | [일본어](docs/lang/README-JP.md) | [중국어](docs/lang/README-ZH.md) | [스페인어](docs/lang/README-ES.md) | [폴란드어](docs/lang/README-PL.md) | [러시아어](docs/lang/README-RU.md) | [포르투갈어](docs/lang/README-PT.md) | [영어](README.md)
+> 🌐 다른 언어로 보기: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md)| [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md)
 
 **Path Switcher**는 Visual Studio Code 확장 프로그램으로, 키보드 단축키 하나로 파일(HTML, CSS, JS, 이미지 등)의 모든 경로를 **상대 경로** ↔️ **절대 경로**로 쉽게 전환할 수 있도록 도와줍니다.
 

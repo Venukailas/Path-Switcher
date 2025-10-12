@@ -1,6 +1,6 @@
 # 🪄 Path Switcher
 
-> 🌐 Tersedia dalam bahasa lain: [English](README.md) | [Français](docs/lang/README-FR.md) | [Deutsch](docs/lang/README-DE.md) | [日本語](docs/lang/README-JP.md) | [中文](docs/lang/README-ZH.md) | [Español](docs/lang/README-ES.md) | [Polski](docs/lang/README-PL.md) | [Русский](docs/lang/README-RU.md) | [Português](docs/lang/README-PT.md) | [한국어](docs/lang/README-KO.md)
+> 🌐 Tersedia dalam bahasa lain: [English](../../README.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 **Path Switcher** adalah ekstensi Visual Studio Code yang membantu Anda dengan mudah mengganti semua path dalam file (HTML, CSS, JS, gambar, dll.) antara **path relatif** ↔️ **path absolut** hanya dengan satu pintasan keyboard.
 

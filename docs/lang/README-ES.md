@@ -1,6 +1,6 @@
 # 🪄 Path Switcher
 
-> 🌐 Disponible en otros idiomas: [Bahasa Indonesia](docs/lang/README-ID.md) | [Français](docs/lang/README-FR.md) | [Deutsch](docs/lang/README-DE.md) | [日本語](docs/lang/README-JP.md) | [中文](docs/lang/README-ZH.md) | [English](README.md) | [Polski](docs/lang/README-PL.md) | [Русский](docs/lang/README-RU.md) | [Português](docs/lang/README-PT.md) | [한국어](docs/lang/README-KO.md)
+> 🌐 Disponible en otros idiomas: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 **Path Switcher** es una extensión de Visual Studio Code que te ayuda a cambiar fácilmente todas las rutas de un archivo (HTML, CSS, JS, imágenes, etc.) entre **rutas relativas** ↔️ **rutas absolutas** con un solo atajo de teclado.
 
