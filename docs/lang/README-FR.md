@@ -29,7 +29,7 @@
 
 1.  Téléchargez ou clonez ce dépôt :
     ```bash
-    git clone [https://github.com/kianoland/path-switcher](https://github.com/kianoland/path-switcher)
+    git clone [https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
     cd path-switcher
     npm install
     ```
@@ -46,8 +46,6 @@ Utilisez les commandes et raccourcis suivants pour exécuter l'extension :
 | Fonction                   | ID de commande             | Raccourci        |
 | :------------------------- | :------------------------- | :--------------- |
 | Basculer Relatif ↔️ Absolu | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-| Tout convertir en Absolu   | `path-switcher.toAbsolute` | -                |
-| Tout convertir en Relatif  | `path-switcher.toRelative` | -                |
 
 ---
 

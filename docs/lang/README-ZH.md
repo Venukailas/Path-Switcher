@@ -29,7 +29,7 @@
 
 1.  下载或克隆此存储库：
     ```bash
-    git clone [https://github.com/kianoland/path-switcher](https://github.com/kianoland/path-switcher)
+    git clone [https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
     cd path-switcher
     npm install
     ```
@@ -46,8 +46,6 @@
 | 功能             | 命令 ID                    | 快捷键           |
 | :--------------- | :------------------------- | :--------------- |
 | 切换相对 ↔️ 绝对 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-| 全部转换为绝对   | `path-switcher.toAbsolute` | -                |
-| 全部转换为相对   | `path-switcher.toRelative` | -                |
 
 ---
 

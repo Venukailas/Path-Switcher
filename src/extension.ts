@@ -83,19 +83,7 @@ export function activate(context: vscode.ExtensionContext) {
     () => convertPaths('auto')
   );
 
-  // Command paksa ke absolute
-  const absCmd = vscode.commands.registerCommand(
-    'path-switcher.toAbsolute',
-    () => convertPaths('absolute')
-  );
-
-  // Command paksa ke relative
-  const relCmd = vscode.commands.registerCommand(
-    'path-switcher.toRelative',
-    () => convertPaths('relative')
-  );
-
-  context.subscriptions.push(toggleCmd, absCmd, relCmd);
+  context.subscriptions.push(toggleCmd);
 }
 
 export function deactivate() {}

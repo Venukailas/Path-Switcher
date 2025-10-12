@@ -29,7 +29,7 @@
 
 1.  Unduh atau kloning repositori ini:
     ```bash
-    git clone [https://github.com/kianoland/path-switcher](https://github.com/kianoland/path-switcher)
+    git clone [https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
     cd path-switcher
     npm install
     ```
@@ -46,8 +46,6 @@ Gunakan perintah dan pintasan berikut untuk menjalankan ekstensi:
 | Fungsi                     | ID Perintah                | Pintasan         |
 | :------------------------- | :------------------------- | :--------------- |
 | Beralih Relatif ↔️ Absolut | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-| Ubah Semua ke Absolut      | `path-switcher.toAbsolute` | -                |
-| Ubah Semua ke Relatif      | `path-switcher.toRelative` | -                |
 
 ---
 

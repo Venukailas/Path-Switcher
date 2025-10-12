@@ -2,7 +2,7 @@
   "name": "path-switcher",
   "displayName": "Path Switcher",
   "description": "Toggle relative <-> absolute JS paths easily in VS Code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "fatonyahmadfauzi",
   "engines": {
     "vscode": "^1.85.0"
@@ -13,9 +13,7 @@
   },
   "categories": ["Other"],
   "activationEvents": [
-    "onCommand:path-switcher.togglePath",
-    "onCommand:path-switcher.toAbsolute",
-    "onCommand:path-switcher.toRelative"
+    "onCommand:path-switcher.togglePath"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -23,14 +21,6 @@
       {
         "command": "path-switcher.togglePath",
         "title": "Toggle Path (Absolute <-> Relative)"
-      },
-      {
-        "command": "path-switcher.toAbsolute",
-        "title": "Convert All Paths to Absolute"
-      },
-      {
-        "command": "path-switcher.toRelative",
-        "title": "Convert All Paths to Relative"
       }
     ],
     "keybindings": [

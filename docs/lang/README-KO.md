@@ -29,7 +29,7 @@
 
 1.  이 저장소를 다운로드하거나 복제합니다:
     ```bash
-    git clone [https://github.com/kianoland/path-switcher](https://github.com/kianoland/path-switcher)
+    git clone [https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
     cd path-switcher
     npm install
     ```
@@ -43,11 +43,9 @@
 
 다음 명령어와 단축키를 사용하여 확장을 실행합니다:
 
-| 기능                         | 명령어 ID                  | 단축키           |
-| :--------------------------- | :------------------------- | :--------------- |
-| 상대 ↔️ 절대 경로 전환       | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-| 모든 경로를 절대 경로로 변환 | `path-switcher.toAbsolute` | -                |
-| 모든 경로를 상대 경로로 변환 | `path-switcher.toRelative` | -                |
+| 기능                   | 명령어 ID                  | 단축키           |
+| :--------------------- | :------------------------- | :--------------- |
+| 상대 ↔️ 절대 경로 전환 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 

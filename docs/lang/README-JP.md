@@ -29,7 +29,7 @@
 
 1.  このリポジトリをダウンロードまたはクローンします:
     ```bash
-    git clone [https://github.com/kianoland/path-switcher](https://github.com/kianoland/path-switcher)
+    git clone [https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
     cd path-switcher
     npm install
     ```
@@ -46,8 +46,6 @@
 | 機能                   | コマンド ID                | ショートカット   |
 | :--------------------- | :------------------------- | :--------------- |
 | 相対 ↔️ 絶対を切り替え | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-| すべてを絶対に変換     | `path-switcher.toAbsolute` | -                |
-| すべてを相対に変換     | `path-switcher.toRelative` | -                |
 
 ---
 

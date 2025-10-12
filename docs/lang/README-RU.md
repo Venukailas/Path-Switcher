@@ -29,7 +29,7 @@
 
 1.  Загрузите или клонируйте этот репозиторий:
     ```bash
-    git clone [https://github.com/kianoland/path-switcher](https://github.com/kianoland/path-switcher)
+    git clone [https://github.com/kianoland/path-switcher](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
     cd path-switcher
     npm install
     ```
@@ -46,8 +46,6 @@
 | Функция                                 | Идентификатор команды      | Горячая клавиша  |
 | :-------------------------------------- | :------------------------- | :--------------- |
 | Переключить относительный ↔️ абсолютный | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-| Преобразовать все в абсолютные          | `path-switcher.toAbsolute` | -                |
-| Преобразовать все в относительные       | `path-switcher.toRelative` | -                |
 
 ---
 
