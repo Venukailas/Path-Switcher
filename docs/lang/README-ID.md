@@ -14,23 +14,28 @@
 
 ---
 Ekstensi Visual Studio Code yang membantu Anda dengan mudah mengalihkan semua jalur dalam file (HTML, CSS, JS, gambar, dll.) antara **jalur relatif** ↔️ **jalur absolut** hanya dengan satu pintasan keyboard.
-- --
+
+---
 
 ## ✨ Fitur
+
 - 🔁 Secara otomatis beralih antara jalur relatif dan absolut.
 - 💡 Mendukung jalur di:
-- `<script src="...">`
-- `<link href="...">`
-- `<img src="...">`
-- `url("...")` di dalam CSS
+  - `<script src="...">`
+  - `<link href="...">`
+  - `<img src="...">`
+  - `url("...")` di dalam CSS
 - ⚡ Dipicu melalui pintasan keyboard.
 - 🧭 Mengubah semua jalur dalam file sekaligus.
-- --
+
+---
 
 ## ✅ Versi VS Code yang Didukung
+
 - Versi minimum: **1.85.0**
 - Diuji pada **Windows**, **macOS**, dan **Linux**.
-- --
+
+---
 
 ## 🧩 Instalasi
 
@@ -42,38 +47,44 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah mengalihkan semua ja
    ```
 2. Buka folder di VS Code.
 3. Tekan **F5** → ini akan meluncurkan jendela **Extension Development Host** baru.
-- --
+
+---
 
 ## ⌨️ Perintah & Pintasan
 
 | Nama Perintah | ID Perintah | Pintasan |
 | --------------------------- | -------------------------- | ---------------- |
 | Alihkan Relatif ↔️ Mutlak | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-- --
+
+---
 
 ## 🧠 Contoh
-- *Sebelum:**
+
+* *Sebelum:**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-- *Setelah (Mutlak):**
+
+* *Setelah (Mutlak):**
 
 ```html
 <script src="/js/meta-update.js"></script>
 <link rel="stylesheet" href="/css/style.css" />
 <img src="/assets/logo.png" />
 ```
-- *Setelah (Relatif):**
+
+* *Setelah (Relatif):**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-- --
+
+---
 
 ## 🧑‍💻 Berkontribusi
 
@@ -83,7 +94,8 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah mengalihkan semua ja
 4. Kompilasi TypeScript: `npm run compile`.
 5. Uji di VS Code (tekan **F5** → Extension Development Host).
 6. Kirim Permintaan Tarik.
-- --
+
+---
 
 ## 🛠️ Perkembangan
 
@@ -104,7 +116,8 @@ Jalankan tes:
 ```bash
 npm test
 ```
-- --
+
+---
 
 ## 🧑‍💻 Berkontribusi
 
@@ -114,12 +127,14 @@ npm test
 4. Kompilasi TypeScript: `npm run compile`.
 5. Uji di VS Code (tekan **F5** → Extension Development Host).
 6. Kirim Permintaan Tarik.
-- --
+
+---
 
 ## 🐞 Bug & Masalah
 
 Laporkan masalah di [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
-- --
+
+---
 
 ## 🧾 Lisensi
 

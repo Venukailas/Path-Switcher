@@ -14,23 +14,28 @@
 
 ---
 ファイル内のすべてのパス (HTML、CSS、JS、画像など) を、**相対パス** ↔️ **絶対パス** の間で 1 つのキーボード ショートカットだけで簡単に切り替えることができる Visual Studio Code 拡張機能。
-- --
+
+---
 
 ## ✨ 特徴
+
 - 🔁 相対パスと絶対パスを自動的に切り替えます。
 - 💡 以下のパスをサポートします:
-- `<script src="...">`
-- `<link href="...">`
-- `<img src="...">`
-- CSS 内の `url("...")`
+  - `<script src="...">`
+  - `<link href="...">`
+  - `<img src="...">`
+  - CSS 内の `url("...")`
 - ⚡ キーボード ショートカットによってトリガーされます。
 - 🧭 ファイル内のすべてのパスを一度に変更します。
-- --
+
+---
 
 ## ✅ サポートされている VS コードのバージョン
+
 - 最小バージョン: **1.85.0**
 - **Windows**、**macOS**、**Linux** でテスト済み。
-- --
+
+---
 
 ## 🧩 インストール
 
@@ -42,38 +47,44 @@
    ```
 2. VS Code でフォルダーを開きます。
 3. **F5** を押すと、新しい **Extension Development Host** ウィンドウが起動します。
-- --
+
+---
 
 ## ⌨️ コマンドとショートカット
 
 |コマンド名 |コマンドID |ショートカット |
 | --------------------------- | -------------------------- | ---------------- |
 |相対 ↔️ 絶対を切り替え | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-- --
+
+---
 
 ## 🧠 例
-- *前に：**
+
+* *前に：**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-- *後 (絶対):**
+
+* *後 (絶対):**
 
 ```html
 <script src="/js/meta-update.js"></script>
 <link rel="stylesheet" href="/css/style.css" />
 <img src="/assets/logo.png" />
 ```
-- *後 (相対):**
+
+* *後 (相対):**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-- --
+
+---
 
 ## 🧑‍💻 貢献しています
 
@@ -83,7 +94,8 @@
 4. TypeScript をコンパイルします: `npm run compile`。
 5. VS Code でテストします (**F5** を押して → 拡張機能開発ホスト)。
 6. プルリクエストを送信します。
-- --
+
+---
 
 ## 🛠️ 開発
 
@@ -104,7 +116,8 @@ npm run lint
 ```bash
 npm test
 ```
-- --
+
+---
 
 ## 🧑‍💻 貢献しています
 
@@ -114,12 +127,14 @@ npm test
 4. TypeScript をコンパイルします: `npm run compile`。
 5. VS Code でテストします (**F5** を押して → 拡張機能開発ホスト)。
 6. プルリクエストを送信します。
-- --
+
+---
 
 ## 🐞 バグと問題
 
 [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) で問題を報告してください。
-- --
+
+---
 
 ## 🧾 ライセンス
 

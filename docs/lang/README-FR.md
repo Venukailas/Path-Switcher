@@ -14,23 +14,28 @@
 
 ---
 Une extension Visual Studio Code qui vous aide à basculer facilement tous les chemins d'un fichier (HTML, CSS, JS, images, etc.) entre les **chemins relatifs** ↔️ **chemins absolus** avec un seul raccourci clavier.
-- --
+
+---
 
 ## ✨ Caractéristiques
+
 - 🔁 Bascule automatiquement entre les chemins relatifs et absolus.
 - 💡 Prend en charge les chemins dans :
-- `<script src="...">`
-- `<link href="...">`
-- `<img src="...">`
-- `url("...")` dans CSS
+  - `<script src="...">`
+  - `<link href="...">`
+  - `<img src="...">`
+  - `url("...")` dans CSS
 - ⚡ Déclenché via un raccourci clavier.
 - 🧭 Modifie tous les chemins d'un fichier à la fois.
-- --
+
+---
 
 ## ✅ Versions de code VS prises en charge
+
 - Version minimale : **1.85.0**
 - Testé sur **Windows**, **macOS** et **Linux**.
-- --
+
+---
 
 ## 🧩Installation
 
@@ -42,38 +47,44 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
    ```
 2. Ouvrez le dossier dans VS Code.
 3. Appuyez sur **F5** → cela lancera une nouvelle fenêtre **Extension Development Host**.
-- --
+
+---
 
 ## ⌨️ Commandes et raccourcis
 
 | Nom de la commande | ID de commande | Raccourci |
 | --------------------------- | -------------------------- | ---------------- |
 | Basculer Relatif ↔️ Absolu | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-- --
+
+---
 
 ## 🧠 Exemple
-- *Avant:**
+
+* *Avant:**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-- *Après (absolu) :**
+
+* *Après (absolu) :**
 
 ```html
 <script src="/js/meta-update.js"></script>
 <link rel="stylesheet" href="/css/style.css" />
 <img src="/assets/logo.png" />
 ```
-- *Après (relatif) :**
+
+* *Après (relatif) :**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-- --
+
+---
 
 ## 🧑‍💻 Contribuer
 
@@ -83,7 +94,8 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 4. Compilez TypeScript : `npm run compile`.
 5. Testez dans VS Code (appuyez sur **F5** → Extension Development Host).
 6. Soumettez une demande de tirage.
-- --
+
+---
 
 ## 🛠️ Développement
 
@@ -104,7 +116,8 @@ Exécutez des tests :
 ```bash
 npm test
 ```
-- --
+
+---
 
 ## 🧑‍💻 Contribuer
 
@@ -114,12 +127,14 @@ npm test
 4. Compilez TypeScript : `npm run compile`.
 5. Testez dans VS Code (appuyez sur **F5** → Extension Development Host).
 6. Soumettez une demande de tirage.
-- --
+
+---
 
 ## 🐞 Bogues et problèmes
 
 Signalez les problèmes sur [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
-- --
+
+---
 
 ## 🧾 Licence
 

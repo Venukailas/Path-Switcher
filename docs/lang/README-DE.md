@@ -14,23 +14,28 @@
 
 ---
 Eine Visual Studio Code-Erweiterung, mit der Sie alle Pfade in einer Datei (HTML, CSS, JS, Bilder usw.) ganz einfach mit nur einer Tastenkombination zwischen **relativen Pfaden** ↔️ **absoluten Pfaden** umschalten können.
-- --
+
+---
 
 ## ✨ Funktionen
+
 - 🔁 Schaltet automatisch zwischen relativen und absoluten Pfaden um.
 - 💡 Unterstützt Pfade in:
-- `<script src="...">`
-- `<link href="...">`
-- `<img src="...">`
-- `url("...")` innerhalb von CSS
+  - `<script src="...">`
+  - `<link href="...">`
+  - `<img src="...">`
+  - `url("...")` innerhalb von CSS
 - ⚡ Ausgelöst per Tastenkombination.
 - 🧭 Ändert alle Pfade in einer Datei auf einmal.
-- --
+
+---
 
 ## ✅ Unterstützte VS-Codeversionen
+
 - Mindestversion: **1.85.0**
 - Getestet unter **Windows**, **macOS** und **Linux**.
-- --
+
+---
 
 ## 🧩 Installation
 
@@ -42,38 +47,44 @@ Eine Visual Studio Code-Erweiterung, mit der Sie alle Pfade in einer Datei (HTML
    ```
 2. Öffnen Sie den Ordner in VS Code.
 3. Drücken Sie **F5** → es öffnet sich ein neues Fenster **Extension Development Host**.
-- --
+
+---
 
 ## ⌨️ Befehle und Verknüpfungen
 
 | Befehlsname | Befehls-ID | Verknüpfung |
 | --------------------------- | -------------------------- | ---------------- |
 | Relativ ↔️ Absolut umschalten | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-- --
+
+---
 
 ## 🧠 Beispiel
-- *Vor:**
+
+* *Vor:**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-- *Nachher (Absolut):**
+
+* *Nachher (Absolut):**
 
 ```html
 <script src="/js/meta-update.js"></script>
 <link rel="stylesheet" href="/css/style.css" />
 <img src="/assets/logo.png" />
 ```
-- *Nachher (relativ):**
+
+* *Nachher (relativ):**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-- --
+
+---
 
 ## 🧑‍💻 Mitwirken
 
@@ -83,7 +94,8 @@ Eine Visual Studio Code-Erweiterung, mit der Sie alle Pfade in einer Datei (HTML
 4. Kompilieren Sie TypeScript: `npm run compile`.
 5. Testen Sie im VS-Code (drücken Sie **F5** → Extension Development Host).
 6. Senden Sie eine Pull-Anfrage.
-- --
+
+---
 
 ## 🛠️ Entwicklung
 
@@ -104,7 +116,8 @@ Führen Sie Tests durch:
 ```bash
 npm test
 ```
-- --
+
+---
 
 ## 🧑‍💻 Mitwirken
 
@@ -114,12 +127,14 @@ npm test
 4. Kompilieren Sie TypeScript: `npm run compile`.
 5. Testen Sie im VS-Code (drücken Sie **F5** → Extension Development Host).
 6. Senden Sie eine Pull-Anfrage.
-- --
+
+---
 
 ## 🐞 Fehler und Probleme
 
 Melden Sie Probleme auf [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
-- --
+
+---
 
 ## 🧾 Lizenz
 

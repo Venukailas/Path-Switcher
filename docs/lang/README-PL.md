@@ -14,23 +14,28 @@
 
 ---
 Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ścieżki w pliku (HTML, CSS, JS, obrazy itp.) pomiędzy **ścieżkami względnymi** ↔️ **ścieżkami bezwzględnymi** za pomocą tylko jednego skrótu klawiaturowego.
-- --
+
+---
 
 ## ✨ Funkcje
+
 - 🔁 Automatycznie przełącza między ścieżkami względnymi i bezwzględnymi.
 - 💡 Obsługuje ścieżki w:
-- `<script src="...">`
-- `<link href="...">`
-- `<img src="...">`
-- `url("...")` wewnątrz CSS
+  - `<script src="...">`
+  - `<link href="...">`
+  - `<img src="...">`
+  - `url("...")` wewnątrz CSS
 - ⚡ Wywoływane za pomocą skrótu klawiaturowego.
 - 🧭 Zmienia wszystkie ścieżki w pliku jednocześnie.
-- --
+
+---
 
 ## ✅ Obsługiwane wersje kodu VS
+
 - Wersja minimalna: **1.85.0**
 - Testowano na **Windows**, **macOS** i **Linux**.
-- --
+
+---
 
 ## 🧩 Instalacja
 
@@ -42,38 +47,44 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
    ```
 2. Otwórz folder w VS Code.
 3. Naciśnij **F5** → uruchomi się nowe okno **Extension Development Host**.
-- --
+
+---
 
 ## ⌨️ Polecenia i skróty
 
 | Nazwa polecenia | Identyfikator polecenia | Skrót |
 | --------------------------- | -------------------------- | ---------------- |
 | Przełącz względny ↔️ Absolutny | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-- --
+
+---
 
 ## 🧠 Przykład
-- *Zanim:**
+
+* *Zanim:**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-- *Po (absolutnie):**
+
+* *Po (absolutnie):**
 
 ```html
 <script src="/js/meta-update.js"></script>
 <link rel="stylesheet" href="/css/style.css" />
 <img src="/assets/logo.png" />
 ```
-- *Po (względnie):**
+
+* *Po (względnie):**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-- --
+
+---
 
 ## 🧑‍💻 Współtworzenie
 
@@ -83,7 +94,8 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
 4. Skompiluj TypeScript: `npm run compile`.
 5. Przetestuj kod VS (naciśnij **F5** → Host rozwoju rozszerzenia).
 6. Prześlij żądanie ściągnięcia.
-- --
+
+---
 
 ## 🛠️Rozwój
 
@@ -104,7 +116,8 @@ Uruchom testy:
 ```bash
 npm test
 ```
-- --
+
+---
 
 ## 🧑‍💻 Współtworzenie
 
@@ -114,12 +127,14 @@ npm test
 4. Skompiluj TypeScript: `npm run compile`.
 5. Przetestuj kod VS (naciśnij **F5** → Host rozwoju rozszerzenia).
 6. Prześlij żądanie ściągnięcia.
-- --
+
+---
 
 ## 🐞 Błędy i problemy
 
 Zgłaszaj problemy na stronie [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
-- --
+
+---
 
 ## 🧾 Licencja
 
