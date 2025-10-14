@@ -1,7 +1,5 @@
 # 🪄 Path Switcher
 
-<!-- 🌍 GitHub-friendly (SVG badges) -->
-
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
 [![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
 [![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
@@ -15,6 +13,7 @@
 > 🌐 Доступно на других языках: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
+
 Расширение Visual Studio Code, которое позволяет легко переключать все пути в файле (HTML, CSS, JS, изображения и т. д.) между **относительными путями** ↔️ **абсолютными путями** с помощью всего одного сочетания клавиш.
 
 ---
@@ -35,7 +34,7 @@
 ## ✅ Поддерживаемые версии кода VS
 
 - Минимальная версия: **1.85.0**
-– Протестировано на **Windows**, **macOS** и **Linux**.
+  – Протестировано на **Windows**, **macOS** и **Linux**.
 
 ---
 
@@ -54,8 +53,8 @@
 
 ## ⌨️ Команды и сочетания клавиш
 
-| Имя команды | Идентификатор команды | Ярлык |
-| --------------------------- | -------------------------- | ---------------- |
+| Имя команды                             | Идентификатор команды      | Ярлык            |
+| --------------------------------------- | -------------------------- | ---------------- |
 | Переключить относительное ↔️ абсолютное | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---

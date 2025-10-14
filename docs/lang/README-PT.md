@@ -1,7 +1,5 @@
 # 🪄 Path Switcher
 
-<!-- 🌍 GitHub-friendly (SVG badges) -->
-
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
 [![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
 [![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
@@ -15,6 +13,7 @@
 > 🌐 Disponível em outros idiomas: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [한국어](README-KO.md)
 
 ---
+
 Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos os caminhos em um arquivo (HTML, CSS, JS, imagens etc.) entre **caminhos relativos** ↔️ **caminhos absolutos** com apenas um atalho de teclado.
 
 ---
@@ -54,8 +53,8 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 
 ## ⌨️ Comandos e atalhos
 
-| Nome do Comando | ID do comando | Atalho |
-| --------------------------- | -------------------------- | ---------------- |
+| Nome do Comando               | ID do comando              | Atalho           |
+| ----------------------------- | -------------------------- | ---------------- |
 | Alternar relativo ↔️ absoluto | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---

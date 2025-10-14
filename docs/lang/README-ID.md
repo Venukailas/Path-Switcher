@@ -1,7 +1,5 @@
 # 🪄 Path Switcher
 
-<!-- 🌍 GitHub-friendly (SVG badges) -->
-
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
 [![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
 [![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
@@ -15,6 +13,7 @@
 > 🌐 Tersedia dalam bahasa lain: [English](../../README.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
+
 Ekstensi Visual Studio Code yang membantu Anda dengan mudah mengalihkan semua jalur dalam file (HTML, CSS, JS, gambar, dll.) antara **jalur relatif** ↔️ **jalur absolut** hanya dengan satu pintasan keyboard.
 
 ---
@@ -54,8 +53,8 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah mengalihkan semua ja
 
 ## ⌨️ Perintah & Pintasan
 
-| Nama Perintah | ID Perintah | Pintasan |
-| --------------------------- | -------------------------- | ---------------- |
+| Nama Perintah             | ID Perintah                | Pintasan         |
+| ------------------------- | -------------------------- | ---------------- |
 | Alihkan Relatif ↔️ Mutlak | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---

@@ -1,7 +1,5 @@
 # 🪄 Path Switcher
 
-<!-- 🌍 GitHub-friendly (SVG badges) -->
-
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
 [![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
 [![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
@@ -15,6 +13,7 @@
 > 🌐 다른 언어로도 사용 가능: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md)
 
 ---
+
 단 하나의 키보드 단축키를 사용하여 **상대 경로** ←️ **절대 경로** 간에 파일(HTML, CSS, JS, 이미지 등)의 모든 경로를 쉽게 전환하는 데 도움이 되는 Visual Studio Code 확장입니다.
 
 ---
@@ -54,8 +53,8 @@
 
 ## ⌨️ 명령 및 단축키
 
-| 명령 이름 | 명령 ID | 바로가기 |
-| -------------- | -------------------------- | ---------------- |
+| 명령 이름        | 명령 ID                    | 바로가기         |
+| ---------------- | -------------------------- | ---------------- |
 | 상대 ← 절대 전환 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---

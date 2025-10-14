@@ -1,7 +1,5 @@
 # 🪄 Path Switcher
 
-<!-- 🌍 GitHub-friendly (SVG badges) -->
-
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
 [![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
 [![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
@@ -15,6 +13,7 @@
 > 🌐 他の言語でも利用可能: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
+
 ファイル内のすべてのパス (HTML、CSS、JS、画像など) を、**相対パス** ↔️ **絶対パス** の間で 1 つのキーボード ショートカットだけで簡単に切り替えることができる Visual Studio Code 拡張機能。
 
 ---
@@ -54,9 +53,9 @@
 
 ## ⌨️ コマンドとショートカット
 
-|コマンド名 |コマンドID |ショートカット |
-| ------------------------- | ------------------------ | ---------------- |
-|相対 ↔️ 絶対を切り替え | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| コマンド名             | コマンド ID                | ショートカット   |
+| ---------------------- | -------------------------- | ---------------- |
+| 相対 ↔️ 絶対を切り替え | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 

@@ -1,7 +1,5 @@
 # 🪄 Path Switcher
 
-<!-- 🌍 GitHub-friendly (SVG badges) -->
-
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
 [![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
 [![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
@@ -15,6 +13,7 @@
 > 🌐 In anderen Sprachen verfügbar: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
+
 Eine Visual Studio Code-Erweiterung, mit der Sie alle Pfade in einer Datei (HTML, CSS, JS, Bilder usw.) ganz einfach mit nur einer Tastenkombination zwischen **relativen Pfaden** ↔️ **absoluten Pfaden** umschalten können.
 
 ---
@@ -54,8 +53,8 @@ Eine Visual Studio Code-Erweiterung, mit der Sie alle Pfade in einer Datei (HTML
 
 ## ⌨️ Befehle und Verknüpfungen
 
-| Befehlsname | Befehls-ID | Verknüpfung |
-| ------------ | -------------------------- | ---------------- |
+| Befehlsname                   | Befehls-ID                 | Verknüpfung      |
+| ----------------------------- | -------------------------- | ---------------- |
 | Relativ ↔️ Absolut umschalten | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---

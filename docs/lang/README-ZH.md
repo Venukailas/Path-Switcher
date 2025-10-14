@@ -1,7 +1,5 @@
 # 🪄 Path Switcher
 
-<!-- 🌍 GitHub-friendly (SVG badges) -->
-
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
 [![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
 [![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
@@ -15,6 +13,7 @@
 > 🌐 提供其他语言版本： [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
+
 一种 Visual Studio Code 扩展，可帮助您仅使用一个键盘快捷键即可在 **相对路径** ↔️ **绝对路径** 之间轻松切换文件中的所有路径（HTML、CSS、JS、图像等）。
 
 ---
@@ -54,7 +53,7 @@
 
 ## ⌨️ 命令和快捷键
 
-|命令名称 |命令ID |快捷方式|
+|命令名称 |命令 ID |快捷方式|
 | ------------------------ | | -------------------------- | ---------------- |
 |切换相对 ↔️ 绝对 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 

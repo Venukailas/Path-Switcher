@@ -1,7 +1,5 @@
 # 🪄 Path Switcher
 
-<!-- 🌍 GitHub-friendly (SVG badges) -->
-
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
 [![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
 [![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
@@ -15,6 +13,7 @@
 > 🌐 Dostępne w innych językach: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
+
 Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ścieżki w pliku (HTML, CSS, JS, obrazy itp.) pomiędzy **ścieżkami względnymi** ↔️ **ścieżkami bezwzględnymi** za pomocą tylko jednego skrótu klawiaturowego.
 
 ---
@@ -54,8 +53,8 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
 
 ## ⌨️ Polecenia i skróty
 
-| Nazwa polecenia | Identyfikator polecenia | Skrót |
-| --------------------------- | ------------------------------------ | ---------------- |
+| Nazwa polecenia                | Identyfikator polecenia    | Skrót            |
+| ------------------------------ | -------------------------- | ---------------- |
 | Przełącz względny ↔️ Absolutny | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
