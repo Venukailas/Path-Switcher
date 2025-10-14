@@ -47,7 +47,7 @@ Eine Visual Studio Code-Erweiterung, mit der Sie alle Pfade in einer Datei (HTML
 ## ⌨️ Befehle und Verknüpfungen
 
 | Befehlsname | Befehls-ID | Verknüpfung |
-| ------------ | -------------------------- | ---------------- |
+| --------------------------- | -------------------------- | ---------------- |
 | Relativ ↔️ Absolut umschalten | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 - --
 

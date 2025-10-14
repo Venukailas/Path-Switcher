@@ -47,7 +47,7 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 ## ⌨️ Commandes et raccourcis
 
 | Nom de la commande | ID de commande | Raccourci |
-| -------------------------------- | -------------------------- | ---------------- |
+| --------------------------- | -------------------------- | ---------------- |
 | Basculer Relatif ↔️ Absolu | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 - --
 
