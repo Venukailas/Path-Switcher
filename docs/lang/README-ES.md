@@ -13,30 +13,24 @@
 > 🌐 Disponible en otros idiomas: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
-
 Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas las rutas de un archivo (HTML, CSS, JS, imágenes, etc.) entre **rutas relativas** ↔️ **rutas absolutas** con un solo método abreviado de teclado.
-
----
+- --
 
 ## ✨ Características
-
 - 🔁 Alterna automáticamente entre rutas relativas y absolutas.
 - 💡 Soporta caminos en:
-  - `<script src="...">`
-  - `<link href="...">`
-  - `<img src="...">`
-  - `url("...")` dentro de CSS
+- `<script src="...">`
+- `<link href="...">`
+- `<img src="...">`
+- `url("...")` dentro de CSS
 - ⚡ Se activa mediante un método abreviado de teclado.
 - 🧭 Cambia todas las rutas de un archivo a la vez.
-
----
+- --
 
 ## ✅ Versiones de código VS compatibles
-
 - Versión mínima: **1.85.0**
 - Probado en **Windows**, **macOS** y **Linux**.
-
----
+- --
 
 ## 🧩 Instalación
 
@@ -48,44 +42,38 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
    ```
 2. Abra la carpeta en VS Code.
 3. Presione **F5** → se abrirá una nueva ventana **Host de desarrollo de extensiones**.
-
----
+- --
 
 ## ⌨️ Comandos y atajos
 
-| Nombre del comando            | ID de comando              | Atajo            |
-| ----------------------------- | -------------------------- | ---------------- |
+| Nombre del comando | ID de comando | Atajo |
+| --------------------------- | -------------------------- | ---------------- |
 | Alternar Relativo ↔️ Absoluto | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-
----
+- --
 
 ## 🧠 Ejemplo
-
-**Antes:**
+- *Antes:**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-
-**Después (Absoluto):**
+- *Después (Absoluto):**
 
 ```html
 <script src="/js/meta-update.js"></script>
 <link rel="stylesheet" href="/css/style.css" />
 <img src="/assets/logo.png" />
 ```
-
-**Después (Relativo):**
+- *Después (Relativo):**
 
 ```html
 <script src="js/meta-update.js"></script>
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-
----
+- --
 
 ## 🧑‍💻 Contribuyendo
 
@@ -95,8 +83,7 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
 4. Compile TypeScript: `npm run compile`.
 5. Pruebe en VS Code (presione **F5** → Host de desarrollo de extensiones).
 6. Envíe una solicitud de extracción.
-
----
+- --
 
 ## 🛠️ Desarrollo
 
@@ -117,8 +104,7 @@ Ejecutar pruebas:
 ```bash
 npm test
 ```
-
----
+- --
 
 ## 🧑‍💻 Contribuyendo
 
@@ -128,14 +114,12 @@ npm test
 4. Compile TypeScript: `npm run compile`.
 5. Pruebe en VS Code (presione **F5** → Host de desarrollo de extensiones).
 6. Envíe una solicitud de extracción.
-
----
+- --
 
 ## 🐞 Errores y problemas
 
 Informar problemas en [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
-
----
+- --
 
 ## 🧾 Licencia
 
