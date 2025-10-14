@@ -1,16 +1,16 @@
 # 🪄 Path Switcher
 
-<!-- 🧩 VSCode Marketplace fallback (PNG badges, for safer offline previews) -->
+<!-- 🌍 GitHub-friendly (SVG badges) -->
 
-![VS Code](https://raster.shields.io/badge/VS%20Code-1.85.0+-blue.png)
-![Version](https://raster.shields.io/github/v/release/fatonyahmadfauzi/Remove-Comments?color=blue.png)
-![License](https://raster.shields.io/github/license/fatonyahmadfauzi/Remove-Comments?color=green.png)
-![Build](https://raster.shields.io/github/actions/workflow/status/fatonyahmadfauzi/Remove-Comments/main.yml?branch=master.png)
-![Repo Size](https://raster.shields.io/github/repo-size/fatonyahmadfauzi/Remove-Comments?color=yellow.png)
-![Last Commit](https://raster.shields.io/github/last-commit/fatonyahmadfauzi/Remove-Comments?color=brightgreen.png)
-![Installs](https://raster.shields.io/badge/Installs-1000+-orange.png)
-![Downloads](https://raster.shields.io/badge/Downloads-1000+-orange.png)
-![Rating](https://raster.shields.io/badge/Rating-★★★★★-yellow.png)
+[![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
+[![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
+[![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](LICENSE)
+[![Build Status](https://github.com/fatonyahmadfauzi/Path-Switcher/actions/workflows/main.yml/badge.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/actions)
+[![Repo Size](https://img.shields.io/github/repo-size/fatonyahmadfauzi/Path-Switcher?color=yellow.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher)
+[![Last Commit](https://img.shields.io/github/last-commit/fatonyahmadfauzi/Path-Switcher?color=brightgreen.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/commits/main)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
+[![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
+[![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
 > 🌐 Available in other languages: [Bahasa Indonesia](docs/lang/README-ID.md) | [Français](docs/lang/README-FR.md) | [Deutsch](docs/lang/README-DE.md) | [日本語](docs/lang/README-JP.md) | [中文](docs/lang/README-ZH.md) | [Español](docs/lang/README-ES.md) | [Polski](docs/lang/README-PL.md) | [Русский](docs/lang/README-RU.md) | [Português](docs/lang/README-PT.md) | [한국어](docs/lang/README-KO.md)
 
