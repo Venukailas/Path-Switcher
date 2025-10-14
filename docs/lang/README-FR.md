@@ -33,8 +33,7 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 
 ## ✅ Versions de code VS prises en charge
 
--Version minimale : **1.85.0**
-
+- Version minimale : **1.85.0**
 - Testé sur **Windows**, **macOS** et **Linux**.
 
 ---
