@@ -1,7 +1,23 @@
-.vscode/**
-.vscode-test/**
-out/test/**
+# Folder dependensi
+node_modules/**
+
+# Folder dan file source code
 src/**
+**/*.ts
+**/*.map
+
+# Konfigurasi & skrip development
+.github/**
+.vscode/**
+.vscode-test.mjs
 .gitignore
 tsconfig.json
+eslint.config.mjs
+package-lock.json
+
+# Dokumentasi
+docs/**
+vsc-extension-quickstart.md
+
+# Hasil build/paket sebelumnya
 *.vsix

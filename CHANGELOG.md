@@ -10,6 +10,18 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
+## [1.0.9] - 2025-10-15
+
+### Fixed
+
+- Fixed an issue where the `CHANGELOG.md` and `README.md` were not displaying on the VS Code Marketplace.
+
+## [1.0.8] - 2025-10-14
+
+### Changed
+
+- Optimized the extension by excluding unnecessary files from the package, resulting in a smaller size and faster installation.
+
 ## [1.0.7] - 2025-10-14
 
 ### Added
