@@ -1,59 +1,68 @@
 # 🪄 Path Switcher
 
+<!-- 🌍 GitHub-friendly (SVG badges) -->
+
+[![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
+[![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
+[![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
+[![Build Status](https://github.com/fatonyahmadfauzi/Path-Switcher/actions/workflows/main.yml/badge.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/actions)
+[![Repo Size](https://img.shields.io/github/repo-size/fatonyahmadfauzi/Path-Switcher?color=yellow.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher)
+[![Last Commit](https://img.shields.io/github/last-commit/fatonyahmadfauzi/Path-Switcher?color=brightgreen.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/commits/main)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
+[![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
+[![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
+
 > 🌐 In anderen Sprachen verfügbar: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
-**Path Switcher** ist eine Visual Studio Code-Erweiterung, mit der Sie alle Pfade in einer Datei (HTML, CSS, JS, Bilder usw.) mit nur einer Tastenkombination einfach zwischen **relativen Pfaden** ↔️ **absoluten Pfaden** wechseln können.
+---
+Eine Visual Studio Code-Erweiterung, mit der Sie alle Pfade in einer Datei (HTML, CSS, JS, Bilder usw.) ganz einfach mit nur einer Tastenkombination zwischen **relativen Pfaden** ↔️ **absoluten Pfaden** umschalten können.
 
 ---
 
 ## ✨ Funktionen
 
-- 🔁 **Schaltet automatisch** zwischen relativen und absoluten Pfaden um
+- 🔁 Schaltet automatisch zwischen relativen und absoluten Pfaden um.
 - 💡 Unterstützt Pfade in:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` in CSS
-- ⚡ Kann per Tastenkombination ausgelöst werden
-- 🧭 Ändert alle Pfade in einer Datei auf einmal (nicht nur eine Zeile)
+  - `url("...")` innerhalb von CSS
+- ⚡ Ausgelöst per Tastenkombination.
+- 🧭 Ändert alle Pfade in einer Datei auf einmal.
 
 ---
 
-## ✅ Unterstützte VS Code-Version
+## ✅ Unterstützte VS-Codeversionen
 
-- Visual Studio Code v1.85.0 oder neuer
+- Mindestversion: **1.85.0**
+- Getestet unter **Windows**, **macOS** und **Linux**.
 
 ---
 
 ## 🧩 Installation
 
-1.  Laden Sie dieses Repository herunter oder klonen Sie es:
-    ```bash
-    git clone [https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
-    cd path-switcher
-    npm install
-    ```
-2.  Im Entwicklungsmodus ausführen:
-    Öffnen Sie den Ordner in VS Code
-    Drücken Sie **F5** → dadurch wird ein neues **Extension Development Host**-Fenster geöffnet
+1. Klonen Sie dieses Repository oder laden Sie es herunter:
+   ```bash
+   git clone https://github.com/fatonyahmadfauzi/Path-Switcher.git
+   cd Path-Switcher
+   npm install
+   ```
+2. Öffnen Sie den Ordner in VS Code.
+3. Drücken Sie **F5** → es öffnet sich ein neues Fenster **Extension Development Host**.
 
 ---
 
-## ⌨️ Verknüpfungen & Befehle
+## ⌨️ Befehle und Verknüpfungen
 
-Verwenden Sie die folgenden Befehle und Verknüpfungen, um die Erweiterung auszuführen:
-
-| Funktion                      | Befehls-ID                 | Verknüpfung      |
-| :---------------------------- | :------------------------- | :--------------- |
+| Befehlsname | Befehls-ID | Verknüpfung |
+| ------------ | -------------------------- | ---------------- |
 | Relativ ↔️ Absolut umschalten | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 Beispiel
 
-Sehen Sie, wie **Path Switcher** Ihre Dateipfade sofort ändert.
-
-**Vorher:**
+**Vor:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -69,7 +78,7 @@ Sehen Sie, wie **Path Switcher** Ihre Dateipfade sofort ändert.
 <img src="/assets/logo.png" />
 ```
 
-**Nachher (Relativ):**
+**Nachher (relativ):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -79,7 +88,18 @@ Sehen Sie, wie **Path Switcher** Ihre Dateipfade sofort ändert.
 
 ---
 
-## 🛠️ Lokale Entwicklung
+## 🧑‍💻 Mitwirken
+
+1. Forken Sie das Repository.
+2. Führen Sie `npm install` aus, um Abhängigkeiten zu installieren.
+3. Nehmen Sie Ihre Änderungen vor.
+4. Kompilieren Sie TypeScript: `npm run compile`.
+5. Testen Sie im VS-Code (drücken Sie **F5** → Extension Development Host).
+6. Senden Sie eine Pull-Anfrage.
+
+---
+
+## 🛠️ Entwicklung
 
 TypeScript kompilieren:
 
@@ -87,13 +107,13 @@ TypeScript kompilieren:
 npm run compile
 ```
 
-Code linten:
+Lint-Code:
 
 ```bash
 npm run lint
 ```
 
-Tests ausführen:
+Führen Sie Tests durch:
 
 ```bash
 npm test
@@ -101,6 +121,23 @@ npm test
 
 ---
 
+## 🧑‍💻 Mitwirken
+
+1. Forken Sie das Repository.
+2. Führen Sie `npm install` aus, um Abhängigkeiten zu installieren.
+3. Nehmen Sie Ihre Änderungen vor.
+4. Kompilieren Sie TypeScript: `npm run compile`.
+5. Testen Sie im VS-Code (drücken Sie **F5** → Extension Development Host).
+6. Senden Sie eine Pull-Anfrage.
+
+---
+
+## 🐞 Fehler und Probleme
+
+Melden Sie Probleme auf [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+
+---
+
 ## 🧾 Lizenz
 
-MIT © [Fatony Ahmad Fauzi](../../LICENSE)
+MIT-Lizenz © [Fatony Ahmad Fauzi](../../LICENSE)

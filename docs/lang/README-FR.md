@@ -1,59 +1,68 @@
 # 🪄 Path Switcher
 
+<!-- 🌍 GitHub-friendly (SVG badges) -->
+
+[![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
+[![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
+[![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
+[![Build Status](https://github.com/fatonyahmadfauzi/Path-Switcher/actions/workflows/main.yml/badge.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/actions)
+[![Repo Size](https://img.shields.io/github/repo-size/fatonyahmadfauzi/Path-Switcher?color=yellow.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher)
+[![Last Commit](https://img.shields.io/github/last-commit/fatonyahmadfauzi/Path-Switcher?color=brightgreen.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/commits/main)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
+[![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
+[![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
+
 > 🌐 Disponible dans d'autres langues : [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
-**Path Switcher** est une extension Visual Studio Code qui vous aide à basculer facilement tous les chemins d'un fichier (HTML, CSS, JS, images, etc.) entre les **chemins relatifs** ↔️ les **chemins absolus** avec un seul raccourci clavier.
+---
+Une extension Visual Studio Code qui vous aide à basculer facilement tous les chemins d'un fichier (HTML, CSS, JS, images, etc.) entre les **chemins relatifs** ↔️ **chemins absolus** avec un seul raccourci clavier.
 
 ---
 
-## ✨ Fonctionnalités
+## ✨ Caractéristiques
 
-- 🔁 **Bascule automatiquement** entre les chemins relatifs et absolus
-- 💡 Prend en charge les chemins dans :
+- 🔁 Bascule automatiquement entre les chemins relatifs et absolus.
+- 💡 Prend en charge les chemins dans :
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` à l'intérieur de CSS
-- ⚡ Peut être déclenché via un raccourci clavier
-- 🧭 Modifie tous les chemins d'un fichier à la fois (pas seulement une ligne)
+  - `url("...")` dans CSS
+- ⚡ Déclenché via un raccourci clavier.
+- 🧭 Modifie tous les chemins d'un fichier à la fois.
 
 ---
 
-## ✅ Version de VS Code prise en charge
+## ✅ Versions de code VS prises en charge
 
-- Visual Studio Code v1.85.0 ou plus récent
-
----
-
-## 🧩 Installation
-
-1.  Téléchargez ou clonez ce dépôt :
-    ```bash
-    git clone [https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
-    cd path-switcher
-    npm install
-    ```
-2.  Exécuter en mode développement :
-    Ouvrez le dossier dans VS Code
-    Appuyez sur **F5** → cela ouvrira une nouvelle fenêtre **Hôte de développement d'extension**
+-Version minimale : **1.85.0**
+- Testé sur **Windows**, **macOS** et **Linux**.
 
 ---
 
-## ⌨️ Raccourcis et commandes
+## 🧩Installation
 
-Utilisez les commandes et raccourcis suivants pour exécuter l'extension :
+1. Clonez ou téléchargez ce référentiel :
+   ```bash
+   git clone https://github.com/fatonyahmadfauzi/Path-Switcher.git
+   cd Path-Switcher
+   npm install
+   ```
+2. Ouvrez le dossier dans VS Code.
+3. Appuyez sur **F5** → cela lancera une nouvelle fenêtre **Extension Development Host**.
 
-| Fonction                   | ID de commande             | Raccourci        |
-| :------------------------- | :------------------------- | :--------------- |
+---
+
+## ⌨️ Commandes et raccourcis
+
+| Nom de la commande | ID de commande | Raccourci |
+| -------------------------------- | -------------------------- | ---------------- |
 | Basculer Relatif ↔️ Absolu | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 Exemple
 
-Voyez comment **Path Switcher** modifie instantanément les chemins de vos fichiers.
-
-**Avant :**
+**Avant:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -61,7 +70,7 @@ Voyez comment **Path Switcher** modifie instantanément les chemins de vos fichi
 <img src="assets/logo.png" />
 ```
 
-**Après (Absolu) :**
+**Après (absolu) :**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -69,7 +78,7 @@ Voyez comment **Path Switcher** modifie instantanément les chemins de vos fichi
 <img src="/assets/logo.png" />
 ```
 
-**Après (Relatif) :**
+**Après (relatif) :**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -79,21 +88,32 @@ Voyez comment **Path Switcher** modifie instantanément les chemins de vos fichi
 
 ---
 
-## 🛠️ Développement local
+## 🧑‍💻 Contribuer
 
-Compiler TypeScript :
+1. Forkez le référentiel.
+2. Exécutez `npm install` pour installer les dépendances.
+3. Effectuez vos modifications.
+4. Compilez TypeScript : `npm run compile`.
+5. Testez dans VS Code (appuyez sur **F5** → Extension Development Host).
+6. Soumettez une demande de tirage.
+
+---
+
+## 🛠️ Développement
+
+Compiler TypeScript :
 
 ```bash
 npm run compile
 ```
 
-Linter le code :
+Code charpie :
 
 ```bash
 npm run lint
 ```
 
-Exécuter les tests :
+Exécutez des tests :
 
 ```bash
 npm test
@@ -101,6 +121,23 @@ npm test
 
 ---
 
+## 🧑‍💻 Contribuer
+
+1. Forkez le référentiel.
+2. Exécutez `npm install` pour installer les dépendances.
+3. Effectuez vos modifications.
+4. Compilez TypeScript : `npm run compile`.
+5. Testez dans VS Code (appuyez sur **F5** → Extension Development Host).
+6. Soumettez une demande de tirage.
+
+---
+
+## 🐞 Bogues et problèmes
+
+Signalez les problèmes sur [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+
+---
+
 ## 🧾 Licence
 
-MIT © [Fatony Ahmad Fauzi](../../LICENSE)
+Licence MIT © [Fatony Ahmad Fauzi](../../LICENSE)
