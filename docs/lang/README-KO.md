@@ -13,7 +13,8 @@
 > 🌐 다른 언어로도 사용 가능: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md)
 
 ---
-단 하나의 키보드 단축키를 사용하여 **상대 경로** ←️ **절대 경로** 간에 파일(HTML, CSS, JS, 이미지 등)의 모든 경로를 쉽게 전환하는 데 도움이 되는 Visual Studio Code 확장입니다.
+
+단 하나의 키보드 단축키를 사용하여 **relative paths** ⇔ **absolute paths** 사이에서 파일(HTML, CSS, JS, 이미지 등)의 모든 경로를 쉽게 전환하는 데 도움이 되는 Visual Studio Code 확장입니다.
 
 ---
 
@@ -24,7 +25,7 @@
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - CSS 내부의 `url("...")`
+  - `url("...")` CSS 내부
 - ⚡ 키보드 단축키를 통해 실행됩니다.
 - 🧭 파일의 모든 경로를 한 번에 변경합니다.
 
@@ -46,21 +47,21 @@
    npm install
    ```
 2. VS Code에서 폴더를 엽니다.
-3. **F5**를 누르면 → 새로운 **확장 개발 호스트** 창이 열립니다.
+3. **F5**을 누르면 → 새로운 **Extension Development Host** 창이 열립니다.
 
 ---
 
 ## ⌨️ 명령 및 단축키
 
 | 명령 이름 | 명령 ID | 바로가기 |
-| --------------------------- | -------------------------- | ---------------- |
+| -------------- | -------------------------- | ---------------- |
 | 상대 ← 절대 전환 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 예
 
-* *전에:**
+**Before:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -68,7 +69,7 @@
 <img src="assets/logo.png" />
 ```
 
-* *이후(절대):**
+**After (Absolute):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -76,7 +77,7 @@
 <img src="/assets/logo.png" />
 ```
 
-* *이후(상대):**
+**After (Relative):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -132,7 +133,7 @@ npm test
 
 ## 🐞 버그 및 문제
 
-[GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues)에서 문제를 신고하세요.
+[GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues)에 대한 문제를 보고하세요.
 
 ---
 

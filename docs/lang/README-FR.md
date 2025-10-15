@@ -13,7 +13,8 @@
 > 🌐 Disponible dans d'autres langues : [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
-Une extension Visual Studio Code qui vous aide à basculer facilement tous les chemins d'un fichier (HTML, CSS, JS, images, etc.) entre les **chemins relatifs** ↔️ **chemins absolus** avec un seul raccourci clavier.
+
+Une extension Visual Studio Code qui vous aide à basculer facilement tous les chemins d'un fichier (HTML, CSS, JS, images, etc.) entre **relative paths** ↔️ **absolute paths** avec un seul raccourci clavier.
 
 ---
 
@@ -53,14 +54,14 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 ## ⌨️ Commandes et raccourcis
 
 | Nom de la commande | ID de commande | Raccourci |
-| --------------------------- | -------------------------- | ---------------- |
+| -------------------------------- | -------------------------- | ---------------- |
 | Basculer Relatif ↔️ Absolu | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 Exemple
 
-* *Avant:**
+**Before:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -68,7 +69,7 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 <img src="assets/logo.png" />
 ```
 
-* *Après (absolu) :**
+**After (Absolute):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -76,7 +77,7 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 <img src="/assets/logo.png" />
 ```
 
-* *Après (relatif) :**
+**After (Relative):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -132,7 +133,7 @@ npm test
 
 ## 🐞 Bogues et problèmes
 
-Signalez les problèmes sur [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+Signalez les problèmes sur le [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 

@@ -13,7 +13,8 @@
 > 🌐 Disponível em outros idiomas: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [한국어](README-KO.md)
 
 ---
-Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos os caminhos em um arquivo (HTML, CSS, JS, imagens etc.) entre **caminhos relativos** ↔️ **caminhos absolutos** com apenas um atalho de teclado.
+
+Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos os caminhos em um arquivo (HTML, CSS, JS, imagens, etc.) entre **relative paths** ↔️ **absolute paths** com apenas um atalho de teclado.
 
 ---
 
@@ -24,7 +25,7 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` dentro do CSS
+  - `url("...")` dentro de CSS
 - ⚡ Acionado via atalho de teclado.
 - 🧭 Altera todos os caminhos em um arquivo de uma vez.
 
@@ -60,7 +61,7 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 
 ## 🧠 Exemplo
 
-* *Antes:**
+**Before:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -68,7 +69,7 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 <img src="assets/logo.png" />
 ```
 
-* *Depois (Absoluto):**
+**After (Absolute):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -76,7 +77,7 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 <img src="/assets/logo.png" />
 ```
 
-* *Depois (Relativo):**
+**After (Relative):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -91,7 +92,7 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 1. Bifurque o repositório.
 2. Execute `npm install` para instalar dependências.
 3. Faça suas alterações.
-4. Compile o TypeScript: `npm run compile`.
+4. Compilar TypeScript: `npm run compile`.
 5. Teste no VS Code (pressione **F5** → Host de desenvolvimento de extensão).
 6. Envie uma solicitação pull.
 
@@ -124,7 +125,7 @@ npm test
 1. Bifurque o repositório.
 2. Execute `npm install` para instalar dependências.
 3. Faça suas alterações.
-4. Compile o TypeScript: `npm run compile`.
+4. Compilar TypeScript: `npm run compile`.
 5. Teste no VS Code (pressione **F5** → Host de desenvolvimento de extensão).
 6. Envie uma solicitação pull.
 

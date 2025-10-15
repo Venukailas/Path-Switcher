@@ -13,7 +13,8 @@
 > 🌐 Tersedia dalam bahasa lain: [English](../../README.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
-Ekstensi Visual Studio Code yang membantu Anda dengan mudah mengalihkan semua jalur dalam file (HTML, CSS, JS, gambar, dll.) antara **jalur relatif** ↔️ **jalur absolut** hanya dengan satu pintasan keyboard.
+
+Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalur dalam file (HTML, CSS, JS, gambar, dll.) antara **relative paths** ↔️ **absolute paths** hanya dengan satu pintasan keyboard.
 
 ---
 
@@ -46,7 +47,7 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah mengalihkan semua ja
    npm install
    ```
 2. Buka folder di VS Code.
-3. Tekan **F5** → ini akan meluncurkan jendela **Extension Development Host** baru.
+3. Tekan **F5** → ini akan membuka jendela **Extension Development Host** baru.
 
 ---
 
@@ -60,7 +61,7 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah mengalihkan semua ja
 
 ## 🧠 Contoh
 
-* *Sebelum:**
+**Before:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -68,7 +69,7 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah mengalihkan semua ja
 <img src="assets/logo.png" />
 ```
 
-* *Setelah (Mutlak):**
+**After (Absolute):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -76,7 +77,7 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah mengalihkan semua ja
 <img src="/assets/logo.png" />
 ```
 
-* *Setelah (Relatif):**
+**After (Relative):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -132,7 +133,7 @@ npm test
 
 ## 🐞 Bug & Masalah
 
-Laporkan masalah di [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+Laporkan masalah pada [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 

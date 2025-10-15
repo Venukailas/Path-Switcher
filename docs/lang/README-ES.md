@@ -13,14 +13,15 @@
 > 🌐 Disponible en otros idiomas: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
-Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas las rutas de un archivo (HTML, CSS, JS, imágenes, etc.) entre **rutas relativas** ↔️ **rutas absolutas** con un solo método abreviado de teclado.
+
+Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas las rutas de un archivo (HTML, CSS, JS, imágenes, etc.) entre **relative paths** ↔️ **absolute paths** con un solo método abreviado de teclado.
 
 ---
 
 ## ✨ Características
 
 - 🔁 Alterna automáticamente entre rutas relativas y absolutas.
-- 💡 Soporta caminos en:
+- 💡 Admite caminos en:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
@@ -46,7 +47,7 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
    npm install
    ```
 2. Abra la carpeta en VS Code.
-3. Presione **F5** → se abrirá una nueva ventana **Host de desarrollo de extensiones**.
+3. Presione **F5** → se abrirá una nueva ventana **Extension Development Host**.
 
 ---
 
@@ -60,7 +61,7 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
 
 ## 🧠 Ejemplo
 
-* *Antes:**
+**Before:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -68,7 +69,7 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
 <img src="assets/logo.png" />
 ```
 
-* *Después (Absoluto):**
+**After (Absolute):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -76,7 +77,7 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
 <img src="/assets/logo.png" />
 ```
 
-* *Después (Relativo):**
+**After (Relative):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -92,7 +93,7 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
 2. Ejecute `npm install` para instalar dependencias.
 3. Realice sus cambios.
 4. Compile TypeScript: `npm run compile`.
-5. Pruebe en VS Code (presione **F5** → Host de desarrollo de extensiones).
+5. Pruebe en VS Code (presione **F5** → Extension Development Host).
 6. Envíe una solicitud de extracción.
 
 ---
@@ -125,7 +126,7 @@ npm test
 2. Ejecute `npm install` para instalar dependencias.
 3. Realice sus cambios.
 4. Compile TypeScript: `npm run compile`.
-5. Pruebe en VS Code (presione **F5** → Host de desarrollo de extensiones).
+5. Pruebe en VS Code (presione **F5** → Extension Development Host).
 6. Envíe una solicitud de extracción.
 
 ---

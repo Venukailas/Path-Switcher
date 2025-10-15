@@ -13,7 +13,8 @@
 > 🌐 他の言語でも利用可能: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
 
 ---
-ファイル内のすべてのパス (HTML、CSS、JS、画像など) を、**相対パス** ↔️ **絶対パス** の間で 1 つのキーボード ショートカットだけで簡単に切り替えることができる Visual Studio Code 拡張機能。
+
+ファイル内のすべてのパス (HTML、CSS、JS、画像など) を **relative paths** ↔️ **absolute paths** の間で 1 つのキーボード ショートカットだけで簡単に切り替えることができる Visual Studio Code 拡張機能。
 
 ---
 
@@ -24,7 +25,7 @@
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - CSS 内の `url("...")`
+  - CSS内の`url("...")`
 - ⚡ キーボード ショートカットによってトリガーされます。
 - 🧭 ファイル内のすべてのパスを一度に変更します。
 
@@ -53,14 +54,14 @@
 ## ⌨️ コマンドとショートカット
 
 |コマンド名 |コマンドID |ショートカット |
-| --------------------------- | -------------------------- | ---------------- |
+| ------------------------- | ------------------------ | ---------------- |
 |相対 ↔️ 絶対を切り替え | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 例
 
-* *前に：**
+**Before:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -68,7 +69,7 @@
 <img src="assets/logo.png" />
 ```
 
-* *後 (絶対):**
+**After (Absolute):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -76,7 +77,7 @@
 <img src="/assets/logo.png" />
 ```
 
-* *後 (相対):**
+**After (Relative):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -92,7 +93,7 @@
 2. `npm install` を実行して依存関係をインストールします。
 3. 変更を加えます。
 4. TypeScript をコンパイルします: `npm run compile`。
-5. VS Code でテストします (**F5** を押して → 拡張機能開発ホスト)。
+5. VS Code でテストします (**F5** → 拡張機能開発ホストを押します)。
 6. プルリクエストを送信します。
 
 ---
@@ -125,14 +126,14 @@ npm test
 2. `npm install` を実行して依存関係をインストールします。
 3. 変更を加えます。
 4. TypeScript をコンパイルします: `npm run compile`。
-5. VS Code でテストします (**F5** を押して → 拡張機能開発ホスト)。
+5. VS Code でテストします (**F5** → 拡張機能開発ホストを押します)。
 6. プルリクエストを送信します。
 
 ---
 
 ## 🐞 バグと問題
 
-[GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) で問題を報告してください。
+[GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) に関する問題を報告してください。
 
 ---
 
