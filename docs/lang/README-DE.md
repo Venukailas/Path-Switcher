@@ -54,7 +54,7 @@ Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in eine
 ## ⌨️ Befehle und Verknüpfungen
 
 | Befehlsname | Befehls-ID | Verknüpfung |
-| ------------ | -------------------------- | ---------------- |
+| --------------------------- | -------------------------- | ---------------- |
 | Relativ ↔️ Absolut umschalten | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---

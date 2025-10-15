@@ -54,7 +54,7 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
 ## ⌨️ Polecenia i skróty
 
 | Nazwa polecenia | Identyfikator polecenia | Skrót |
-| --------------------------- | ------------------------------------ | ---------------- |
+| --------------------------- | -------------------------- | ---------------- |
 | Przełącz względny ↔️ Absolutny | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---

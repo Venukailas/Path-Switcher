@@ -133,7 +133,7 @@ npm test
 
 ## 🐞 Bug & Masalah
 
-Laporkan masalah pada [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+Laporkan masalah di [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 
