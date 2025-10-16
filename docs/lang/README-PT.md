@@ -18,48 +18,57 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 
 ---
 
-## ✨ Recursos
+## ✨ Features
 
-- 🔁 Alterna automaticamente entre caminhos relativos e absolutos.
-- 💡 Suporta caminhos em:
+- 🔁 Automatically toggles between relative and absolute paths.
+- 💡 Supports paths in:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` dentro de CSS
-- ⚡ Acionado via atalho de teclado.
-- 🧭 Altera todos os caminhos em um arquivo de uma vez.
+  - `url("...")` inside CSS
+- ⚡ Triggered via keyboard shortcut.
+- 🧭 Changes all paths in a file at once.
 
 ---
 
-## ✅ Versões de código VS suportadas
+## ✅ Supported VS Code Versions
 
-- Versão mínima: **1.85.0**
-- Testado em **Windows**, **macOS** e **Linux**.
+- Minimum version: **1.85.0**
+- Tested on **Windows**, **macOS**, and **Linux**.
 
 ---
 
-## 🧩 Instalação
+## 🧩 Installation
 
-1. Clone ou baixe este repositório:
-   ```bash
-   git clone https://github.com/fatonyahmadfauzi/Path-Switcher.git
-   cd Path-Switcher
-   npm install
-   ```
+### From Marketplace (Recommended)
+
+1. Abra **Visual Studio Code**.
+2. Vá para a visualização **Extensions** (`Ctrl+Shift+X`).
+3. Pesquise `Path Switcher`.
+4. Clique em **Install**.
+
+### For Development (from Source Code)
+
+1. Clone este repositório:
+    ```bash
+    git clone [clone https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
+    cd Path Switcher
+    npm install
+    ```
 2. Abra a pasta no VS Code.
-3. Pressione **F5** → abrirá uma nova janela **Extension Development Host**.
+3. Pressione **F5** para iniciar o **Extension Development Host**.
 
 ---
 
-## ⌨️ Comandos e atalhos
+## ⌨️ Commands & Shortcuts
 
-| Nome do comando | ID do comando | Atalho |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| Alternar relativo ↔️ absoluto | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 Exemplo
+## 🧠 Example
 
 **Before:**
 
@@ -87,18 +96,7 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 
 ---
 
-## 🧑‍💻 Contribuindo
-
-1. Bifurque o repositório.
-2. Execute `npm install` para instalar dependências.
-3. Faça suas alterações.
-4. Compilar TypeScript: `npm run compile`.
-5. Teste no VS Code (pressione **F5** → Host de desenvolvimento de extensão).
-6. Envie uma solicitação pull.
-
----
-
-## 🛠️ Desenvolvimento
+## 🛠️ Development
 
 Compilar TypeScript:
 
@@ -120,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 Contribuindo
+## 🧑‍💻 Contributing
 
 1. Bifurque o repositório.
 2. Execute `npm install` para instalar dependências.
@@ -131,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 Bugs e problemas
+## 🐞 Bugs & Issues
 
 Relate problemas no [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 
-## 🧾 Licença
+## 🧾 License
 
 Licença MIT © [Fatony Ahmad Fauzi](../../LICENSE)

@@ -40,14 +40,23 @@ A Visual Studio Code extension that helps you easily switch all paths in a file 
 
 ## 🧩 Installation
 
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/fatonyahmadfauzi/Path-Switcher.git
-   cd Path-Switcher
-   npm install
-   ```
-2. Open the folder in VS Code.
-3. Press **F5** → it will launch a new **Extension Development Host** window.
+### From Marketplace (Recommended)
+
+1.  Open **Visual Studio Code**.
+2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
+3.  Search for `Path Switcher`.
+4.  Click **Install**.
+
+### For Development (from Source Code)
+
+1.  Clone this repository:
+    ```bash
+    git clone [clone https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
+    cd Path Switcher
+    npm install
+    ```
+2.  Open the folder in VS Code.
+3.  Press **F5** to launch the **Extension Development Host**.
 
 ---
 
@@ -84,17 +93,6 @@ A Visual Studio Code extension that helps you easily switch all paths in a file 
 <link rel="stylesheet" href="css/style.css" />
 <img src="assets/logo.png" />
 ```
-
----
-
-## 🧑‍💻 Contributing
-
-1. Fork the repository.
-2. Run `npm install` to install dependencies.
-3. Make your changes.
-4. Compile TypeScript: `npm run compile`.
-5. Test in VS Code (press **F5** → Extension Development Host).
-6. Submit a Pull Request.
 
 ---
 

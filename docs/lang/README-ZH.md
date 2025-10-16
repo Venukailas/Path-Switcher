@@ -18,48 +18,57 @@
 
 ---
 
-## ✨ 特点
+## ✨ Features
 
-- 🔁 自动在相对路径和绝对路径之间切换。
-- 💡 支持以下路径：
+- 🔁 Automatically toggles between relative and absolute paths.
+- 💡 Supports paths in:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - CSS 内的 `url("...")`
-- ⚡ 通过键盘快捷键触发。
-- 🧭 一次更改文件中的所有路径。
+  - `url("...")` inside CSS
+- ⚡ Triggered via keyboard shortcut.
+- 🧭 Changes all paths in a file at once.
 
 ---
 
-## ✅ 支持的 VS Code 版本
+## ✅ Supported VS Code Versions
 
-- 最低版本：**1.85.0**
-- 在 **Windows**、**macOS** 和 **Linux** 上测试。
+- Minimum version: **1.85.0**
+- Tested on **Windows**, **macOS**, and **Linux**.
 
 ---
 
-## 🧩 安装
+## 🧩 Installation
 
-1. 克隆或下载此存储库：
-   ```bash
-   git clone https://github.com/fatonyahmadfauzi/Path-Switcher.git
-   cd Path-Switcher
-   npm install
-   ```
+### From Marketplace (Recommended)
+
+1. 打开**Visual Studio Code**。
+2. 转至 **Extensions** 视图 (`Ctrl+Shift+X`)。
+3. 搜索 `Path Switcher`。
+4. 单击**Install**。
+
+### For Development (from Source Code)
+
+1. 克隆此存储库：
+    ```bash
+    git clone [clone https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
+    cd Path Switcher
+    npm install
+    ```
 2. 在 VS Code 中打开该文件夹。
-3. 按 **F5** → 将启动一个新的 **Extension Development Host** 窗口。
+3. 按 **F5** 启动 **Extension Development Host**。
 
 ---
 
-## ⌨️ 命令和快捷键
+## ⌨️ Commands & Shortcuts
 
-|命令名称 |命令ID |快捷方式 |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-|切换相对 ↔️ 绝对 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 示例
+## 🧠 Example
 
 **Before:**
 
@@ -87,18 +96,7 @@
 
 ---
 
-## 🧑‍💻 贡献
-
-1. 分叉存储库。
-2. 运行 `npm install` 安装依赖项。
-3. 做出改变。
-4. 编译 TypeScript：`npm run compile`。
-5. 在 VS Code 中测试（按 **F5** → 扩展开发主机）。
-6. 提交拉取请求。
-
----
-
-## 🛠️ 发展
+## 🛠️ Development
 
 编译打字稿：
 
@@ -120,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 贡献
+## 🧑‍💻 Contributing
 
 1. 分叉存储库。
 2. 运行 `npm install` 安装依赖项。
@@ -131,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 错误和问题
+## 🐞 Bugs & Issues
 
 报告 [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) 上的问题。
 
 ---
 
-## 🧾 许可证
+## 🧾 License
 
 麻省理工学院许可证 © [Fatony Ahmad Fauzi](../../LICENSE)

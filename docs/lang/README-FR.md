@@ -18,48 +18,57 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 
 ---
 
-## ✨ Caractéristiques
+## ✨ Features
 
-- 🔁 Bascule automatiquement entre les chemins relatifs et absolus.
-- 💡 Prend en charge les chemins dans :
+- 🔁 Automatically toggles between relative and absolute paths.
+- 💡 Supports paths in:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` dans CSS
-- ⚡ Déclenché via un raccourci clavier.
-- 🧭 Modifie tous les chemins d'un fichier à la fois.
+  - `url("...")` inside CSS
+- ⚡ Triggered via keyboard shortcut.
+- 🧭 Changes all paths in a file at once.
 
 ---
 
-## ✅ Versions de code VS prises en charge
+## ✅ Supported VS Code Versions
 
-- Version minimale : **1.85.0**
-- Testé sur **Windows**, **macOS** et **Linux**.
+- Minimum version: **1.85.0**
+- Tested on **Windows**, **macOS**, and **Linux**.
 
 ---
 
-## 🧩Installation
+## 🧩 Installation
 
-1. Clonez ou téléchargez ce référentiel :
-   ```bash
-   git clone https://github.com/fatonyahmadfauzi/Path-Switcher.git
-   cd Path-Switcher
-   npm install
-   ```
+### From Marketplace (Recommended)
+
+1. Ouvrez **Visual Studio Code**.
+2. Accédez à la vue **Extensions** (`Ctrl+Shift+X`).
+3. Recherchez `Path Switcher`.
+4. Cliquez sur **Install**.
+
+### For Development (from Source Code)
+
+1. Clonez ce référentiel :
+    ```bash
+    git clone [clone https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
+    cd Path Switcher
+    npm install
+    ```
 2. Ouvrez le dossier dans VS Code.
-3. Appuyez sur **F5** → cela lancera une nouvelle fenêtre **Extension Development Host**.
+3. Appuyez sur **F5** pour lancer le **Extension Development Host**.
 
 ---
 
-## ⌨️ Commandes et raccourcis
+## ⌨️ Commands & Shortcuts
 
-| Nom de la commande | ID de commande | Raccourci |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| Basculer Relatif ↔️ Absolu | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 Exemple
+## 🧠 Example
 
 **Before:**
 
@@ -87,18 +96,7 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 
 ---
 
-## 🧑‍💻 Contribuer
-
-1. Forkez le référentiel.
-2. Exécutez `npm install` pour installer les dépendances.
-3. Effectuez vos modifications.
-4. Compilez TypeScript : `npm run compile`.
-5. Testez dans VS Code (appuyez sur **F5** → Extension Development Host).
-6. Soumettez une demande de tirage.
-
----
-
-## 🛠️ Développement
+## 🛠️ Development
 
 Compiler TypeScript :
 
@@ -120,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 Contribuer
+## 🧑‍💻 Contributing
 
 1. Forkez le référentiel.
 2. Exécutez `npm install` pour installer les dépendances.
@@ -131,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 Bogues et problèmes
+## 🐞 Bugs & Issues
 
 Signalez les problèmes sur le [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 
-## 🧾 Licence
+## 🧾 License
 
 Licence MIT © [Fatony Ahmad Fauzi](../../LICENSE)

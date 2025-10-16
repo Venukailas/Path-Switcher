@@ -18,48 +18,57 @@
 
 ---
 
-## ✨ 特徴
+## ✨ Features
 
-- 🔁 相対パスと絶対パスを自動的に切り替えます。
-- 💡 以下のパスをサポートします:
+- 🔁 Automatically toggles between relative and absolute paths.
+- 💡 Supports paths in:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - CSS内の`url("...")`
-- ⚡ キーボード ショートカットによってトリガーされます。
-- 🧭 ファイル内のすべてのパスを一度に変更します。
+  - `url("...")` inside CSS
+- ⚡ Triggered via keyboard shortcut.
+- 🧭 Changes all paths in a file at once.
 
 ---
 
-## ✅ サポートされている VS コードのバージョン
+## ✅ Supported VS Code Versions
 
-- 最小バージョン: **1.85.0**
-- **Windows**、**macOS**、**Linux** でテスト済み。
+- Minimum version: **1.85.0**
+- Tested on **Windows**, **macOS**, and **Linux**.
 
 ---
 
-## 🧩 インストール
+## 🧩 Installation
 
-1. このリポジトリを複製またはダウンロードします。
-   ```bash
-   git clone https://github.com/fatonyahmadfauzi/Path-Switcher.git
-   cd Path-Switcher
-   npm install
-   ```
+### From Marketplace (Recommended)
+
+1. **Visual Studio Code** を開きます。
+2. **Extensions** ビュー (`Ctrl+Shift+X`) に移動します。
+3. `Path Switcher` を検索します。
+4. 「**Install**」をクリックします。
+
+### For Development (from Source Code)
+
+1. このリポジトリのクローンを作成します。
+    ```bash
+    git clone [clone https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
+    cd Path Switcher
+    npm install
+    ```
 2. VS Code でフォルダーを開きます。
-3. **F5** を押すと、新しい **Extension Development Host** ウィンドウが起動します。
+3. **F5** を押して **Extension Development Host** を起動します。
 
 ---
 
-## ⌨️ コマンドとショートカット
+## ⌨️ Commands & Shortcuts
 
-|コマンド名 |コマンドID |ショートカット |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-|相対 ↔️ 絶対を切り替え | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 例
+## 🧠 Example
 
 **Before:**
 
@@ -87,18 +96,7 @@
 
 ---
 
-## 🧑‍💻 貢献しています
-
-1. リポジトリをフォークします。
-2. `npm install` を実行して依存関係をインストールします。
-3. 変更を加えます。
-4. TypeScript をコンパイルします: `npm run compile`。
-5. VS Code でテストします (**F5** → 拡張機能開発ホストを押します)。
-6. プルリクエストを送信します。
-
----
-
-## 🛠️ 開発
+## 🛠️ Development
 
 TypeScript をコンパイルします。
 
@@ -120,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 貢献しています
+## 🧑‍💻 Contributing
 
 1. リポジトリをフォークします。
 2. `npm install` を実行して依存関係をインストールします。
@@ -131,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 バグと問題
+## 🐞 Bugs & Issues
 
 [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) に関する問題を報告してください。
 
 ---
 
-## 🧾 ライセンス
+## 🧾 License
 
 MIT ライセンス © [Fatony Ahmad Fauzi](../../LICENSE)

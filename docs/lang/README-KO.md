@@ -14,52 +14,61 @@
 
 ---
 
-단 하나의 키보드 단축키를 사용하여 **relative paths** ⇔ **absolute paths** 사이에서 파일(HTML, CSS, JS, 이미지 등)의 모든 경로를 쉽게 전환하는 데 도움이 되는 Visual Studio Code 확장입니다.
+단 하나의 키보드 단축키를 사용하여 **relative paths** ←️ **absolute paths** 사이에서 파일(HTML, CSS, JS, 이미지 등)의 모든 경로를 쉽게 전환하는 데 도움이 되는 Visual Studio Code 확장입니다.
 
 ---
 
-## ✨ 특징
+## ✨ Features
 
-- 🔁 상대 경로와 절대 경로 사이를 자동으로 전환합니다.
-- 💡 다음 경로를 지원합니다:
+- 🔁 Automatically toggles between relative and absolute paths.
+- 💡 Supports paths in:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` CSS 내부
-- ⚡ 키보드 단축키를 통해 실행됩니다.
-- 🧭 파일의 모든 경로를 한 번에 변경합니다.
+  - `url("...")` inside CSS
+- ⚡ Triggered via keyboard shortcut.
+- 🧭 Changes all paths in a file at once.
 
 ---
 
-## ✅ 지원되는 VS 코드 버전
+## ✅ Supported VS Code Versions
 
-- 최소 버전: **1.85.0**
-- **Windows**, **macOS** 및 **Linux**에서 테스트되었습니다.
+- Minimum version: **1.85.0**
+- Tested on **Windows**, **macOS**, and **Linux**.
 
 ---
 
-## 🧩 설치
+## 🧩 Installation
 
-1. 다음 저장소를 복제하거나 다운로드합니다.
-   ```bash
-   git clone https://github.com/fatonyahmadfauzi/Path-Switcher.git
-   cd Path-Switcher
-   npm install
-   ```
+### From Marketplace (Recommended)
+
+1. **Visual Studio Code**을 엽니다.
+2. **Extensions** 보기(`Ctrl+Shift+X`)로 이동합니다.
+3. `Path Switcher`을(를) 검색하세요.
+4. **Install**을 클릭하세요.
+
+### For Development (from Source Code)
+
+1. 이 저장소를 복제합니다.
+    ```bash
+    git clone [clone https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
+    cd Path Switcher
+    npm install
+    ```
 2. VS Code에서 폴더를 엽니다.
-3. **F5**을 누르면 → 새 **Extension Development Host** 창이 열립니다.
+3. **F5**을 눌러 **Extension Development Host**을 실행하세요.
 
 ---
 
-## ⌨️ 명령 및 단축키
+## ⌨️ Commands & Shortcuts
 
-| 명령 이름 | 명령 ID | 바로가기 |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| 상대 ← 절대 전환 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 예
+## 🧠 Example
 
 **Before:**
 
@@ -87,18 +96,7 @@
 
 ---
 
-## 🧑‍💻 기여
-
-1. 저장소를 포크하십시오.
-2. `npm install`을 실행하여 종속성을 설치합니다.
-3. 변경합니다.
-4. TypeScript를 컴파일합니다: `npm run compile`.
-5. VS Code에서 테스트합니다(**F5** → 확장 개발 호스트 누르기).
-6. 풀 요청(Pull Request)을 제출하세요.
-
----
-
-## 🛠️ 개발
+## 🛠️ Development
 
 TypeScript 컴파일:
 
@@ -120,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 기여
+## 🧑‍💻 Contributing
 
 1. 저장소를 포크하십시오.
 2. `npm install`을 실행하여 종속성을 설치합니다.
@@ -131,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 버그 및 문제
+## 🐞 Bugs & Issues
 
 [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues)에 대한 문제를 보고하세요.
 
 ---
 
-## 🧾 라이센스
+## 🧾 License
 
 MIT 라이센스 © [Fatony Ahmad Fauzi](../../LICENSE)

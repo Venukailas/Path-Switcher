@@ -18,48 +18,57 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalu
 
 ---
 
-## ✨ Fitur
+## ✨ Features
 
-- 🔁 Secara otomatis beralih antara jalur relatif dan absolut.
-- 💡 Mendukung jalur di:
+- 🔁 Automatically toggles between relative and absolute paths.
+- 💡 Supports paths in:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` di dalam CSS
-- ⚡ Dipicu melalui pintasan keyboard.
-- 🧭 Mengubah semua jalur dalam file sekaligus.
+  - `url("...")` inside CSS
+- ⚡ Triggered via keyboard shortcut.
+- 🧭 Changes all paths in a file at once.
 
 ---
 
-## ✅ Versi VS Code yang Didukung
+## ✅ Supported VS Code Versions
 
-- Versi minimum: **1.85.0**
-- Diuji pada **Windows**, **macOS**, dan **Linux**.
+- Minimum version: **1.85.0**
+- Tested on **Windows**, **macOS**, and **Linux**.
 
 ---
 
-## 🧩 Instalasi
+## 🧩 Installation
 
-1. Kloning atau unduh repositori ini:
-   ```bash
-   git clone https://github.com/fatonyahmadfauzi/Path-Switcher.git
-   cd Path-Switcher
-   npm install
-   ```
+### From Marketplace (Recommended)
+
+1. Buka **Visual Studio Code**.
+2. Masuk ke tampilan **Extensions** (`Ctrl+Shift+X`).
+3. Cari `Path Switcher`.
+4. Klik **Install**.
+
+### For Development (from Source Code)
+
+1. Kloning repositori ini:
+    ```bash
+    git clone [clone https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
+    cd Path Switcher
+    npm install
+    ```
 2. Buka folder di VS Code.
-3. Tekan **F5** → ini akan membuka jendela **Extension Development Host** baru.
+3. Tekan **F5** untuk meluncurkan **Extension Development Host**.
 
 ---
 
-## ⌨️ Perintah & Pintasan
+## ⌨️ Commands & Shortcuts
 
-| Nama Perintah | ID Perintah | Pintasan |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| Alihkan Relatif ↔️ Mutlak | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 Contoh
+## 🧠 Example
 
 **Before:**
 
@@ -87,18 +96,7 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalu
 
 ---
 
-## 🧑‍💻 Berkontribusi
-
-1. Cabangkan repositori.
-2. Jalankan `npm install` untuk menginstal dependensi.
-3. Lakukan perubahan Anda.
-4. Kompilasi TypeScript: `npm run compile`.
-5. Uji di VS Code (tekan **F5** → Extension Development Host).
-6. Kirim Permintaan Tarik.
-
----
-
-## 🛠️ Perkembangan
+## 🛠️ Development
 
 Kompilasi Skrip Ketik:
 
@@ -120,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 Berkontribusi
+## 🧑‍💻 Contributing
 
 1. Cabangkan repositori.
 2. Jalankan `npm install` untuk menginstal dependensi.
@@ -131,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 Bug & Masalah
+## 🐞 Bugs & Issues
 
 Laporkan masalah di [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 
-## 🧾 Lisensi
+## 🧾 License
 
 Lisensi MIT © [Fatony Ahmad Fauzi](../../LICENSE)
