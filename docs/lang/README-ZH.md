@@ -18,36 +18,36 @@
 
 ---
 
-## ✨ Features
+## ✨ 特点
 
-- 🔁 Automatically toggles between relative and absolute paths.
-- 💡 Supports paths in:
+- 🔁 自动在相对路径和绝对路径之间切换。
+- 💡 支持以下路径：
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` inside CSS
-- ⚡ Triggered via keyboard shortcut.
-- 🧭 Changes all paths in a file at once.
+  - CSS 内的 `url("...")`
+- ⚡ 通过键盘快捷键触发。
+- 🧭 一次更改文件中的所有路径。
 
 ---
 
-## ✅ Supported VS Code Versions
+## ✅ 支持的 VS Code 版本
 
-- Minimum version: **1.85.0**
-- Tested on **Windows**, **macOS**, and **Linux**.
+- 最低版本：**1.85.0**
+- 在 **Windows**、**macOS** 和 **Linux** 上进行测试。
 
 ---
 
-## 🧩 Installation
+## 🧩 安装
 
-### From Marketplace (Recommended)
+### 来自市场（推荐）
 
 1. 打开**Visual Studio Code**。
-2. 转至 **Extensions** 视图 (`Ctrl+Shift+X`)。
+2. 转到 **Extensions** 视图 (`Ctrl+Shift+X`)。
 3. 搜索 `Path Switcher`。
 4. 单击**Install**。
 
-### For Development (from Source Code)
+### 用于开发（来自源代码）
 
 1. 克隆此存储库：
     ```bash
@@ -60,15 +60,15 @@
 
 ---
 
-## ⌨️ Commands & Shortcuts
+## ⌨️ 命令和快捷键
 
-| Command Name                | Command ID                 | Shortcut         |
+|命令名称 |命令ID |快捷方式|
 | --------------------------- | -------------------------- | ---------------- |
-| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+|切换相对 ↔️ 绝对 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 Example
+## 🧠 示例
 
 **Before:**
 
@@ -96,7 +96,7 @@
 
 ---
 
-## 🛠️ Development
+## 🛠️ 发展
 
 编译打字稿：
 
@@ -118,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 Contributing
+## 🧑‍💻 贡献
 
 1. 分叉存储库。
 2. 运行 `npm install` 安装依赖项。
@@ -129,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 Bugs & Issues
+## 🐞 错误和问题
 
 报告 [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) 上的问题。
 
 ---
 
-## 🧾 License
+## 🧾 许可证
 
-麻省理工学院许可证 © [Fatony Ahmad Fauzi](../../LICENSE)
+我的许可证 © [Fatony Ahmad Fauzi](../../LICENSE)

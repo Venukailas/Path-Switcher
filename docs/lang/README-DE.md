@@ -18,36 +18,36 @@ Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in eine
 
 ---
 
-## ✨ Features
+## ✨ Funktionen
 
-- 🔁 Automatically toggles between relative and absolute paths.
-- 💡 Supports paths in:
+- 🔁 Schaltet automatisch zwischen relativen und absoluten Pfaden um.
+- 💡 Unterstützt Pfade in:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` inside CSS
-- ⚡ Triggered via keyboard shortcut.
-- 🧭 Changes all paths in a file at once.
+  - `url("...")` innerhalb von CSS
+- ⚡ Ausgelöst per Tastenkombination.
+- 🧭 Ändert alle Pfade in einer Datei auf einmal.
 
 ---
 
-## ✅ Supported VS Code Versions
+## ✅ Unterstützte VS-Codeversionen
 
-- Minimum version: **1.85.0**
-- Tested on **Windows**, **macOS**, and **Linux**.
+- Mindestversion: **1.85.0**
+- Getestet auf **Windows**, **macOS** und **Linux**.
 
 ---
 
 ## 🧩 Installation
 
-### From Marketplace (Recommended)
+### Vom Marktplatz (empfohlen)
 
 1. Öffnen Sie **Visual Studio Code**.
 2. Gehen Sie zur Ansicht **Extensions** (`Ctrl+Shift+X`).
 3. Suchen Sie nach `Path Switcher`.
 4. Klicken Sie auf **Install**.
 
-### For Development (from Source Code)
+### Für die Entwicklung (aus Quellcode)
 
 1. Klonen Sie dieses Repository:
     ```bash
@@ -60,15 +60,15 @@ Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in eine
 
 ---
 
-## ⌨️ Commands & Shortcuts
+## ⌨️ Befehle und Verknüpfungen
 
-| Command Name                | Command ID                 | Shortcut         |
+| Befehlsname | Befehls-ID | Verknüpfung |
 | --------------------------- | -------------------------- | ---------------- |
-| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Relativ ↔️ Absolut umschalten | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 Example
+## 🧠 Beispiel
 
 **Before:**
 
@@ -96,7 +96,7 @@ Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in eine
 
 ---
 
-## 🛠️ Development
+## 🛠️ Entwicklung
 
 TypeScript kompilieren:
 
@@ -118,23 +118,23 @@ npm test
 
 ---
 
-## 🧑‍💻 Contributing
+## 🧑‍💻 Mitwirken
 
 1. Forken Sie das Repository.
 2. Führen Sie `npm install` aus, um Abhängigkeiten zu installieren.
 3. Nehmen Sie Ihre Änderungen vor.
 4. Kompilieren Sie TypeScript: `npm run compile`.
-5. Testen Sie im VS-Code (drücken Sie **F5** → Extension Development Host).
+5. Testen Sie in VS Code (drücken Sie **F5** → Extension Development Host).
 6. Senden Sie eine Pull-Anfrage.
 
 ---
 
-## 🐞 Bugs & Issues
+## 🐞 Fehler und Probleme
 
-Melden Sie Probleme mit [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+Melden Sie Probleme auf dem [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 
-## 🧾 License
+## 🧾 Lizenz
 
-MIT-Lizenz © [Fatony Ahmad Fauzi](../../LICENSE)
+MEINE Lizenz © [Fatony Ahmad Fauzi](../../LICENSE)

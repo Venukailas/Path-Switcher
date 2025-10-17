@@ -18,36 +18,36 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 
 ---
 
-## ✨ Features
+## ✨ Caractéristiques
 
-- 🔁 Automatically toggles between relative and absolute paths.
-- 💡 Supports paths in:
+- 🔁 Bascule automatiquement entre les chemins relatifs et absolus.
+- 💡 Prend en charge les chemins dans :
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` inside CSS
-- ⚡ Triggered via keyboard shortcut.
-- 🧭 Changes all paths in a file at once.
+  - `url("...")` dans CSS
+- ⚡ Déclenché via un raccourci clavier.
+- 🧭 Modifie tous les chemins d'un fichier à la fois.
 
 ---
 
-## ✅ Supported VS Code Versions
+## ✅ Versions de code VS prises en charge
 
-- Minimum version: **1.85.0**
-- Tested on **Windows**, **macOS**, and **Linux**.
+- Version minimale : **1.85.0**
+- Testé sur **Windows**, **macOS** et **Linux**.
 
 ---
 
-## 🧩 Installation
+## 🧩Installation
 
-### From Marketplace (Recommended)
+### Depuis Marketplace (recommandé)
 
 1. Ouvrez **Visual Studio Code**.
 2. Accédez à la vue **Extensions** (`Ctrl+Shift+X`).
 3. Recherchez `Path Switcher`.
 4. Cliquez sur **Install**.
 
-### For Development (from Source Code)
+### Pour le développement (à partir du code source)
 
 1. Clonez ce référentiel :
     ```bash
@@ -60,15 +60,15 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 
 ---
 
-## ⌨️ Commands & Shortcuts
+## ⌨️ Commandes et raccourcis
 
-| Command Name                | Command ID                 | Shortcut         |
+| Nom de la commande | ID de commande | Raccourci |
 | --------------------------- | -------------------------- | ---------------- |
-| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Basculer Relatif ↔️ Absolu | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 Example
+## 🧠 Exemple
 
 **Before:**
 
@@ -96,7 +96,7 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 
 ---
 
-## 🛠️ Development
+## 🛠️ Développement
 
 Compiler TypeScript :
 
@@ -118,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 Contributing
+## 🧑‍💻 Contribuer
 
 1. Forkez le référentiel.
 2. Exécutez `npm install` pour installer les dépendances.
@@ -129,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 Bugs & Issues
+## 🐞 Bogues et problèmes
 
 Signalez les problèmes sur le [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 
-## 🧾 License
+## 🧾 Licence
 
-Licence MIT © [Fatony Ahmad Fauzi](../../LICENSE)
+MA Licence © [Fatony Ahmad Fauzi](../../LICENSE)

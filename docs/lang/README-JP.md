@@ -18,36 +18,36 @@
 
 ---
 
-## ✨ Features
+## ✨ 特徴
 
-- 🔁 Automatically toggles between relative and absolute paths.
-- 💡 Supports paths in:
+- 🔁 相対パスと絶対パスを自動的に切り替えます。
+- 💡 以下のパスをサポートします:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` inside CSS
-- ⚡ Triggered via keyboard shortcut.
-- 🧭 Changes all paths in a file at once.
+  - CSS 内の `url("...")`
+- ⚡ キーボード ショートカットによってトリガーされます。
+- 🧭 ファイル内のすべてのパスを一度に変更します。
 
 ---
 
-## ✅ Supported VS Code Versions
+## ✅ サポートされている VS コードのバージョン
 
-- Minimum version: **1.85.0**
-- Tested on **Windows**, **macOS**, and **Linux**.
+- 最小バージョン: **1.85.0**
+- **Windows**、**macOS**、および **Linux** でテスト済み。
 
 ---
 
-## 🧩 Installation
+## 🧩 インストール
 
-### From Marketplace (Recommended)
+### マーケットプレイスから (推奨)
 
 1. **Visual Studio Code** を開きます。
 2. **Extensions** ビュー (`Ctrl+Shift+X`) に移動します。
 3. `Path Switcher` を検索します。
 4. 「**Install**」をクリックします。
 
-### For Development (from Source Code)
+### 開発用 (ソースコードから)
 
 1. このリポジトリのクローンを作成します。
     ```bash
@@ -60,15 +60,15 @@
 
 ---
 
-## ⌨️ Commands & Shortcuts
+## ⌨️ コマンドとショートカット
 
-| Command Name                | Command ID                 | Shortcut         |
+|コマンド名 |コマンドID |ショートカット |
 | --------------------------- | -------------------------- | ---------------- |
-| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+|相対 ↔️ 絶対を切り替え | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 Example
+## 🧠 例
 
 **Before:**
 
@@ -96,7 +96,7 @@
 
 ---
 
-## 🛠️ Development
+## 🛠️ 開発
 
 TypeScript をコンパイルします。
 
@@ -118,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 Contributing
+## 🧑‍💻 貢献しています
 
 1. リポジトリをフォークします。
 2. `npm install` を実行して依存関係をインストールします。
@@ -129,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 Bugs & Issues
+## 🐞 バグと問題
 
 [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) に関する問題を報告してください。
 
 ---
 
-## 🧾 License
+## 🧾 ライセンス
 
-MIT ライセンス © [Fatony Ahmad Fauzi](../../LICENSE)
+私のライセンス © [Fatony Ahmad Fauzi](../../LICENSE)

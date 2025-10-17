@@ -14,40 +14,40 @@
 
 ---
 
-단 하나의 키보드 단축키를 사용하여 **relative paths** ←️ **absolute paths** 사이에서 파일(HTML, CSS, JS, 이미지 등)의 모든 경로를 쉽게 전환하는 데 도움이 되는 Visual Studio Code 확장입니다.
+단 하나의 키보드 단축키를 사용하여 **relative paths** ⇔ **absolute paths** 사이에서 파일(HTML, CSS, JS, 이미지 등)의 모든 경로를 쉽게 전환하는 데 도움이 되는 Visual Studio Code 확장입니다.
 
 ---
 
-## ✨ Features
+## ✨ 특징
 
-- 🔁 Automatically toggles between relative and absolute paths.
-- 💡 Supports paths in:
+- 🔁 상대 경로와 절대 경로 사이를 자동으로 전환합니다.
+- 💡 다음 경로를 지원합니다:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` inside CSS
-- ⚡ Triggered via keyboard shortcut.
-- 🧭 Changes all paths in a file at once.
+  - CSS 내부의 `url("...")`
+- ⚡ 키보드 단축키를 통해 실행됩니다.
+- 🧭 파일의 모든 경로를 한 번에 변경합니다.
 
 ---
 
-## ✅ Supported VS Code Versions
+## ✅ 지원되는 VS 코드 버전
 
-- Minimum version: **1.85.0**
-- Tested on **Windows**, **macOS**, and **Linux**.
+- 최소 버전: **1.85.0**
+- **Windows**, **macOS** 및 **Linux**에서 테스트되었습니다.
 
 ---
 
-## 🧩 Installation
+## 🧩 설치
 
-### From Marketplace (Recommended)
+### 마켓플레이스에서(권장)
 
-1. **Visual Studio Code**을 엽니다.
+1. **Visual Studio Code**을(를) 엽니다.
 2. **Extensions** 보기(`Ctrl+Shift+X`)로 이동합니다.
 3. `Path Switcher`을(를) 검색하세요.
-4. **Install**을 클릭하세요.
+4. **Install**을(를) 클릭하세요.
 
-### For Development (from Source Code)
+### 개발용(소스 코드에서)
 
 1. 이 저장소를 복제합니다.
     ```bash
@@ -56,19 +56,19 @@
     npm install
     ```
 2. VS Code에서 폴더를 엽니다.
-3. **F5**을 눌러 **Extension Development Host**을 실행하세요.
+3. **F5**을 눌러 **Extension Development Host**을 실행합니다.
 
 ---
 
-## ⌨️ Commands & Shortcuts
+## ⌨️ 명령 및 단축키
 
-| Command Name                | Command ID                 | Shortcut         |
+| 명령 이름 | 명령 ID | 바로가기 |
 | --------------------------- | -------------------------- | ---------------- |
-| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| 상대 ← 절대 전환 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 Example
+## 🧠 예
 
 **Before:**
 
@@ -96,7 +96,7 @@
 
 ---
 
-## 🛠️ Development
+## 🛠️ 개발
 
 TypeScript 컴파일:
 
@@ -118,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 Contributing
+## 🧑‍💻 기여
 
 1. 저장소를 포크하십시오.
 2. `npm install`을 실행하여 종속성을 설치합니다.
@@ -129,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 Bugs & Issues
+## 🐞 버그 및 문제
 
 [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues)에 대한 문제를 보고하세요.
 
 ---
 
-## 🧾 License
+## 🧾 라이센스
 
-MIT 라이센스 © [Fatony Ahmad Fauzi](../../LICENSE)
+내 라이센스 © [Fatony Ahmad Fauzi](../../LICENSE)

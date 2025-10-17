@@ -18,36 +18,36 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
 
 ---
 
-## ✨ Features
+## ✨ Funkcje
 
-- 🔁 Automatically toggles between relative and absolute paths.
-- 💡 Supports paths in:
+- 🔁 Automatycznie przełącza między ścieżkami względnymi i bezwzględnymi.
+- 💡 Obsługuje ścieżki w:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` inside CSS
-- ⚡ Triggered via keyboard shortcut.
-- 🧭 Changes all paths in a file at once.
+  - `url("...")` wewnątrz CSS
+- ⚡ Wywoływane za pomocą skrótu klawiaturowego.
+- 🧭 Zmienia wszystkie ścieżki w pliku jednocześnie.
 
 ---
 
-## ✅ Supported VS Code Versions
+## ✅ Obsługiwane wersje kodu VS
 
-- Minimum version: **1.85.0**
-- Tested on **Windows**, **macOS**, and **Linux**.
+- Minimalna wersja: **1.85.0**
+- Testowano na **Windows**, **macOS** i **Linux**.
 
 ---
 
-## 🧩 Installation
+## 🧩 Instalacja
 
-### From Marketplace (Recommended)
+### Z Marketplace (zalecane)
 
 1. Otwórz **Visual Studio Code**.
 2. Przejdź do widoku **Extensions** (`Ctrl+Shift+X`).
 3. Wyszukaj `Path Switcher`.
 4. Kliknij **Install**.
 
-### For Development (from Source Code)
+### Dla rozwoju (z kodu źródłowego)
 
 1. Sklonuj to repozytorium:
     ```bash
@@ -60,15 +60,15 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
 
 ---
 
-## ⌨️ Commands & Shortcuts
+## ⌨️ Polecenia i skróty
 
-| Command Name                | Command ID                 | Shortcut         |
+| Nazwa polecenia | Identyfikator polecenia | Skrót |
 | --------------------------- | -------------------------- | ---------------- |
-| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Przełącz względny ↔️ Absolutny | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
-## 🧠 Example
+## 🧠 Przykład
 
 **Before:**
 
@@ -96,7 +96,7 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
 
 ---
 
-## 🛠️ Development
+## 🛠️Rozwój
 
 Skompiluj TypeScript:
 
@@ -118,7 +118,7 @@ npm test
 
 ---
 
-## 🧑‍💻 Contributing
+## 🧑‍💻 Współtworzenie
 
 1. Forkuj repozytorium.
 2. Uruchom `npm install`, aby zainstalować zależności.
@@ -129,12 +129,12 @@ npm test
 
 ---
 
-## 🐞 Bugs & Issues
+## 🐞 Błędy i problemy
 
 Zgłoś problemy na stronie [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 
-## 🧾 License
+## 🧾 Licencja
 
-Licencja MIT © [Fatony Ahmad Fauzi](../../LICENSE)
+MOJA Licencja © [Fatony Ahmad Fauzi](../../LICENSE)
