@@ -10,11 +10,11 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 다른 언어로도 사용 가능: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md)
+> 🌐 다른 언어로도 사용 가능: [English](../../README.md) | [Deutsch](README-DE.md) | [Español](README-ES.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [日本語](README-JP.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
-단 하나의 키보드 단축키를 사용하여 **relative paths** ⇔ **absolute paths** 사이에서 파일(HTML, CSS, JS, 이미지 등)의 모든 경로를 쉽게 전환하는 데 도움이 되는 Visual Studio Code 확장입니다.
+하나의 키보드 단축키로 파일의 모든 경로(HTML, CSS, JS, 이미지 등)를 **상대 경로** ⇔ **절대 경로** 간에 쉽게 전환할 수 있도록 도와주는 Visual Studio Code 확장입니다.
 
 ---
 
@@ -31,7 +31,7 @@
 
 ---
 
-## ✅ 지원되는 VS 코드 버전
+## ✅ 지원되는 VS Code 버전
 
 - 최소 버전: **1.85.0**
 - **Windows**, **macOS** 및 **Linux**에서 테스트되었습니다.
@@ -42,10 +42,10 @@
 
 ### 마켓플레이스에서(권장)
 
-1. **Visual Studio Code**을(를) 엽니다.
-2. **Extensions** 보기(`Ctrl+Shift+X`)로 이동합니다.
+1. **Visual Studio Code**을 엽니다.
+2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
 3. `Path Switcher`을(를) 검색하세요.
-4. **Install**을(를) 클릭하세요.
+4. **설치**를 클릭합니다.
 
 ### 개발용(소스 코드에서)
 
@@ -56,21 +56,21 @@
     npm install
     ```
 2. VS Code에서 폴더를 엽니다.
-3. **F5**을 눌러 **Extension Development Host**을 실행합니다.
+3. **F5**를 눌러 **확장 개발 호스트**를 시작합니다.
 
 ---
 
 ## ⌨️ 명령 및 단축키
 
-| 명령 이름 | 명령 ID | 바로가기 |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| 상대 ← 절대 전환 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 예
 
-**Before:**
+**전에:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -78,7 +78,7 @@
 <img src="assets/logo.png" />
 ```
 
-**After (Absolute):**
+**이후(절대):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -86,7 +86,7 @@
 <img src="/assets/logo.png" />
 ```
 
-**After (Relative):**
+**이후(상대적):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -104,7 +104,7 @@ TypeScript 컴파일:
 npm run compile
 ```
 
-린트 코드:
+Lint 코드:
 
 ```bash
 npm run lint
@@ -123,7 +123,7 @@ npm test
 1. 저장소를 포크하십시오.
 2. `npm install`을 실행하여 종속성을 설치합니다.
 3. 변경합니다.
-4. TypeScript를 컴파일합니다: `npm run compile`.
+4. TypeScript: `npm run compile`을 컴파일합니다.
 5. VS Code에서 테스트합니다(**F5** → 확장 개발 호스트 누르기).
 6. 풀 요청(Pull Request)을 제출하세요.
 
@@ -137,4 +137,4 @@ npm test
 
 ## 🧾 라이센스
 
-내 라이센스 © [Fatony Ahmad Fauzi](../../LICENSE)
+MIT License © [Fatony Ahmad Fauzi](../../LICENSE)

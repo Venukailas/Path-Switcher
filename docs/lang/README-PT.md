@@ -10,11 +10,11 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 Disponível em outros idiomas: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [한국어](README-KO.md)
+> 🌐 Disponível em outros idiomas: [English](../../README.md) | [Deutsch](README-DE.md) | [Español](README-ES.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [日本語](README-JP.md) | [한국어](README-KO.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
-Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos os caminhos em um arquivo (HTML, CSS, JS, imagens, etc.) entre **relative paths** ↔️ **absolute paths** com apenas um atalho de teclado.
+Uma extensão Visual Studio Code que ajuda você a alternar facilmente todos os caminhos em um arquivo (HTML, CSS, JS, imagens, etc.) entre **caminhos relativos** ↔️ **caminhos absolutos** com apenas um atalho de teclado.
 
 ---
 
@@ -31,7 +31,7 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 
 ---
 
-## ✅ Versões de código VS suportadas
+## ✅ Versões VS Code suportadas
 
 - Versão mínima: **1.85.0**
 - Testado em **Windows**, **macOS** e **Linux**.
@@ -43,9 +43,9 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 ### Do Marketplace (recomendado)
 
 1. Abra **Visual Studio Code**.
-2. Vá para a visualização **Extensions** (`Ctrl+Shift+X`).
+2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
 3. Pesquise `Path Switcher`.
-4. Clique em **Install**.
+4. Clique em **Instalar**.
 
 ### Para Desenvolvimento (do Código Fonte)
 
@@ -55,22 +55,22 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
     cd Path Switcher
     npm install
     ```
-2. Abra a pasta no VS Code.
-3. Pressione **F5** para iniciar o **Extension Development Host**.
+2. Abra a pasta em VS Code.
+3. Pressione **F5** para iniciar o **Host de desenvolvimento de extensão**.
 
 ---
 
 ## ⌨️ Comandos e atalhos
 
-| Nome do comando | ID do comando | Atalho |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| Alternar relativo ↔️ absoluto | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 Exemplo
 
-**Before:**
+**Antes:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -78,7 +78,7 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 <img src="assets/logo.png" />
 ```
 
-**After (Absolute):**
+**Depois (Absoluto):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -86,7 +86,7 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 <img src="/assets/logo.png" />
 ```
 
-**After (Relative):**
+**Depois (relativo):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -98,13 +98,13 @@ Uma extensão do Visual Studio Code que ajuda você a alternar facilmente todos 
 
 ## 🛠️ Desenvolvimento
 
-Compilar TypeScript:
+Compile TypeScript:
 
 ```bash
 npm run compile
 ```
 
-Código Lint:
+Lint código:
 
 ```bash
 npm run lint
@@ -123,8 +123,8 @@ npm test
 1. Bifurque o repositório.
 2. Execute `npm install` para instalar dependências.
 3. Faça suas alterações.
-4. Compilar TypeScript: `npm run compile`.
-5. Teste no VS Code (pressione **F5** → Host de desenvolvimento de extensão).
+4. Compile TypeScript: `npm run compile`.
+5. Teste em VS Code (pressione **F5** → Host de desenvolvimento de extensão).
 6. Envie uma solicitação pull.
 
 ---
@@ -137,4 +137,4 @@ Relate problemas no [GitHub Issues page](https://github.com/fatonyahmadfauzi/Pat
 
 ## 🧾 Licença
 
-MINHA Licença © [Fatony Ahmad Fauzi](../../LICENSE)
+MIT License © [Fatony Ahmad Fauzi](../../LICENSE)

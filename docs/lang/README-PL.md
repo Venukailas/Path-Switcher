@@ -10,11 +10,11 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 Dostępne w innych językach: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
+> 🌐 Dostępne w innych językach: [English](../../README.md) | [Deutsch](README-DE.md) | [Español](README-ES.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [日本語](README-JP.md) | [한국어](README-KO.md) | [Português](README-PT.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
-Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ścieżki w pliku (HTML, CSS, JS, obrazy itp.) pomiędzy **relative paths** ↔️ **absolute paths** za pomocą tylko jednego skrótu klawiaturowego.
+Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ścieżki w pliku (HTML, CSS, JS, obrazy itp.) pomiędzy **ścieżkami względnymi** ↔️ **ścieżkami bezwzględnymi** za pomocą tylko jednego skrótu klawiaturowego.
 
 ---
 
@@ -31,7 +31,7 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
 
 ---
 
-## ✅ Obsługiwane wersje kodu VS
+## ✅ Obsługiwane wersje VS Code
 
 - Minimalna wersja: **1.85.0**
 - Testowano na **Windows**, **macOS** i **Linux**.
@@ -43,9 +43,9 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
 ### Z Marketplace (zalecane)
 
 1. Otwórz **Visual Studio Code**.
-2. Przejdź do widoku **Extensions** (`Ctrl+Shift+X`).
+2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
 3. Wyszukaj `Path Switcher`.
-4. Kliknij **Install**.
+4. Kliknij **Zainstaluj**.
 
 ### Dla rozwoju (z kodu źródłowego)
 
@@ -56,21 +56,21 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
     npm install
     ```
 2. Otwórz folder w VS Code.
-3. Naciśnij **F5**, aby uruchomić **Extension Development Host**.
+3. Naciśnij **F5**, aby uruchomić **Host rozwoju rozszerzeń**.
 
 ---
 
 ## ⌨️ Polecenia i skróty
 
-| Nazwa polecenia | Identyfikator polecenia | Skrót |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| Przełącz względny ↔️ Absolutny | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 Przykład
 
-**Before:**
+**Zanim:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -78,7 +78,7 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
 <img src="assets/logo.png" />
 ```
 
-**After (Absolute):**
+**Po (absolutnie):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -86,7 +86,7 @@ Rozszerzenie Visual Studio Code, które pomaga łatwo przełączać wszystkie ś
 <img src="/assets/logo.png" />
 ```
 
-**After (Relative):**
+**Po (względnym):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -104,7 +104,7 @@ Skompiluj TypeScript:
 npm run compile
 ```
 
-Kod Linta:
+Lint kod:
 
 ```bash
 npm run lint
@@ -124,17 +124,17 @@ npm test
 2. Uruchom `npm install`, aby zainstalować zależności.
 3. Wprowadź zmiany.
 4. Skompiluj TypeScript: `npm run compile`.
-5. Przetestuj w kodzie VS (naciśnij **F5** → Host rozwoju rozszerzenia).
+5. Przetestuj w VS Code (naciśnij **F5** → Host rozwoju rozszerzenia).
 6. Prześlij żądanie ściągnięcia.
 
 ---
 
 ## 🐞 Błędy i problemy
 
-Zgłoś problemy na stronie [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+Zgłoś problemy na [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 
 ## 🧾 Licencja
 
-MOJA Licencja © [Fatony Ahmad Fauzi](../../LICENSE)
+MIT License © [Fatony Ahmad Fauzi](../../LICENSE)

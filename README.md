@@ -10,7 +10,7 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 Available in other languages: [Bahasa Indonesia](docs/lang/README-ID.md) | [Français](docs/lang/README-FR.md) | [Deutsch](docs/lang/README-DE.md) | [日本語](docs/lang/README-JP.md) | [中文](docs/lang/README-ZH.md) | [Español](docs/lang/README-ES.md) | [Polski](docs/lang/README-PL.md) | [Русский](docs/lang/README-RU.md) | [Português](docs/lang/README-PT.md) | [한국어](docs/lang/README-KO.md)
+> 🌐 Available in other languages: [Deutsch](docs/lang/README-DE.md) | [Español](docs/lang/README-ES.md) | [Français](docs/lang/README-FR.md) | [Bahasa Indonesia](docs/lang/README-ID.md) | [日本語](docs/lang/README-JP.md) | [한국어](docs/lang/README-KO.md) | [Polski](docs/lang/README-PL.md) | [Português](docs/lang/README-PT.md) | [Русский](docs/lang/README-RU.md) | [中文](docs/lang/README-ZH.md)
 
 ---
 

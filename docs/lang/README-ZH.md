@@ -10,11 +10,11 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 提供其他语言版本： [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
+> 🌐 提供其他语言版本： [English](../../README.md) | [Deutsch](README-DE.md) | [Español](README-ES.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [日本語](README-JP.md) | [한국어](README-KO.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md)
 
 ---
 
-一种 Visual Studio Code 扩展，可帮助您仅使用一个键盘快捷键即可在 **relative paths** ↔️ **absolute paths** 之间轻松切换文件中的所有路径（HTML、CSS、JS、图像等）。
+一个 Visual Studio Code 扩展，可帮助您轻松地通过一个键盘快捷键在 **相对路径** ↔️ **绝对路径** 之间切换文件中的所有路径（HTML、CSS、JS、图像等）。
 
 ---
 
@@ -34,7 +34,7 @@
 ## ✅ 支持的 VS Code 版本
 
 - 最低版本：**1.85.0**
-- 在 **Windows**、**macOS** 和 **Linux** 上进行测试。
+- 在 **Windows**、**macOS** 和 **Linux** 上测试。
 
 ---
 
@@ -42,10 +42,10 @@
 
 ### 来自市场（推荐）
 
-1. 打开**Visual Studio Code**。
-2. 转到 **Extensions** 视图 (`Ctrl+Shift+X`)。
+1. 打开 **Visual Studio Code**。
+2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
 3. 搜索 `Path Switcher`。
-4. 单击**Install**。
+4. 单击“**安装**”。
 
 ### 用于开发（来自源代码）
 
@@ -55,22 +55,22 @@
     cd Path Switcher
     npm install
     ```
-2. 在 VS Code 中打开该文件夹。
-3. 按 **F5** 启动 **Extension Development Host**。
+2. 打开 VS Code 中的文件夹。
+3. 按 **F5** 启动 **扩展开发主机**。
 
 ---
 
 ## ⌨️ 命令和快捷键
 
-|命令名称 |命令ID |快捷方式|
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-|切换相对 ↔️ 绝对 | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 示例
 
-**Before:**
+**前：**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -78,7 +78,7 @@
 <img src="assets/logo.png" />
 ```
 
-**After (Absolute):**
+**之后（绝对）：**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -86,7 +86,7 @@
 <img src="/assets/logo.png" />
 ```
 
-**After (Relative):**
+**之后（相对）：**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -98,13 +98,13 @@
 
 ## 🛠️ 发展
 
-编译打字稿：
+编译TypeScript：
 
 ```bash
 npm run compile
 ```
 
-皮棉代码：
+Lint 代码：
 
 ```bash
 npm run lint
@@ -123,7 +123,7 @@ npm test
 1. 分叉存储库。
 2. 运行 `npm install` 安装依赖项。
 3. 做出改变。
-4. 编译 TypeScript：`npm run compile`。
+4. 编译TypeScript：`npm run compile`。
 5. 在 VS Code 中测试（按 **F5** → 扩展开发主机）。
 6. 提交拉取请求。
 
@@ -131,10 +131,10 @@ npm test
 
 ## 🐞 错误和问题
 
-报告 [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) 上的问题。
+在 [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) 上报告问题。
 
 ---
 
 ## 🧾 许可证
 
-我的许可证 © [Fatony Ahmad Fauzi](../../LICENSE)
+MIT License © [法托尼·艾哈迈德·福齐](../../LICENSE)

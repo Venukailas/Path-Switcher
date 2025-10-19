@@ -10,11 +10,11 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 In anderen Sprachen verfügbar: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
+> 🌐 In anderen Sprachen verfügbar: [English](../../README.md) | [Español](README-ES.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [日本語](README-JP.md) | [한국어](README-KO.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
-Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in einer Datei (HTML, CSS, JS, Bilder usw.) zwischen **relative paths** ↔️ **absolute paths** mit nur einer Tastenkombination wechseln können.
+Eine Visual Studio Code-Erweiterung, die Ihnen hilft, alle Pfade in einer Datei (HTML, CSS, JS, Bilder usw.) mit nur einer Tastenkombination einfach zwischen **relativen Pfaden** ↔️ **absoluten Pfaden** umzuschalten.
 
 ---
 
@@ -31,10 +31,10 @@ Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in eine
 
 ---
 
-## ✅ Unterstützte VS-Codeversionen
+## ✅ Unterstützte VS Code-Versionen
 
 - Mindestversion: **1.85.0**
-- Getestet auf **Windows**, **macOS** und **Linux**.
+- Getestet unter **Windows**, **macOS** and **Linux**.
 
 ---
 
@@ -43,9 +43,9 @@ Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in eine
 ### Vom Marktplatz (empfohlen)
 
 1. Öffnen Sie **Visual Studio Code**.
-2. Gehen Sie zur Ansicht **Extensions** (`Ctrl+Shift+X`).
+2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
 3. Suchen Sie nach `Path Switcher`.
-4. Klicken Sie auf **Install**.
+4. Klicken Sie auf **Installieren**.
 
 ### Für die Entwicklung (aus Quellcode)
 
@@ -56,21 +56,21 @@ Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in eine
     npm install
     ```
 2. Öffnen Sie den Ordner in VS Code.
-3. Drücken Sie **F5**, um **Extension Development Host** zu starten.
+3. Drücken Sie **F5**, um den **Extension Development Host** zu starten.
 
 ---
 
 ## ⌨️ Befehle und Verknüpfungen
 
-| Befehlsname | Befehls-ID | Verknüpfung |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| Relativ ↔️ Absolut umschalten | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 Beispiel
 
-**Before:**
+**Vor:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -78,7 +78,7 @@ Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in eine
 <img src="assets/logo.png" />
 ```
 
-**After (Absolute):**
+**Nach (absolut):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -86,7 +86,7 @@ Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in eine
 <img src="/assets/logo.png" />
 ```
 
-**After (Relative):**
+**Nachher (relativ):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -98,7 +98,7 @@ Eine Visual Studio Code-Erweiterung, mit der Sie ganz einfach alle Pfade in eine
 
 ## 🛠️ Entwicklung
 
-TypeScript kompilieren:
+Kompilieren Sie TypeScript:
 
 ```bash
 npm run compile
@@ -131,10 +131,10 @@ npm test
 
 ## 🐞 Fehler und Probleme
 
-Melden Sie Probleme auf dem [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+Melden Sie Probleme mit dem [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
 
 ---
 
 ## 🧾 Lizenz
 
-MEINE Lizenz © [Fatony Ahmad Fauzi](../../LICENSE)
+MIT License © [Fatony Ahmad Fauzi](../../LICENSE)

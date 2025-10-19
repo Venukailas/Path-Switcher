@@ -10,11 +10,11 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 Tersedia dalam bahasa lain: [English](../../README.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
+> 🌐 Tersedia dalam bahasa lain: [English](../../README.md) | [Deutsch](README-DE.md) | [Español](README-ES.md) | [Français](README-FR.md) | [日本語](README-JP.md) | [한국어](README-KO.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
-Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalur dalam file (HTML, CSS, JS, gambar, dll.) antara **relative paths** ↔️ **absolute paths** hanya dengan satu pintasan keyboard.
+Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalur dalam file (HTML, CSS, JS, gambar, dll.) antara **jalur relatif** ↔️ **jalur absolut** hanya dengan satu pintasan keyboard.
 
 ---
 
@@ -31,10 +31,10 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalu
 
 ---
 
-## ✅ Versi VS Code yang Didukung
+## ✅ Versi VS Code yang didukung
 
 - Versi minimum: **1.85.0**
-- Diuji pada **Windows**, **macOS**, dan **Linux**.
+- Diuji pada **Windows**, **macOS** and **Linux**.
 
 ---
 
@@ -43,9 +43,9 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalu
 ### Dari Marketplace (Disarankan)
 
 1. Buka **Visual Studio Code**.
-2. Masuk ke tampilan **Extensions** (`Ctrl+Shift+X`).
-3. Cari `Path Switcher`.
-4. Klik **Install**.
+2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
+3. Telusuri `Path Switcher`.
+4. Klik **Instal**.
 
 ### Untuk Pengembangan (dari Kode Sumber)
 
@@ -62,15 +62,15 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalu
 
 ## ⌨️ Perintah & Pintasan
 
-| Nama Perintah | ID Perintah | Pintasan |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| Alihkan Relatif ↔️ Mutlak | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 Contoh
 
-**Before:**
+**Sebelum:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -78,7 +78,7 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalu
 <img src="assets/logo.png" />
 ```
 
-**After (Absolute):**
+**Setelah (Mutlak):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -86,7 +86,7 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalu
 <img src="/assets/logo.png" />
 ```
 
-**After (Relative):**
+**Setelah (Relatif):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -98,13 +98,13 @@ Ekstensi Visual Studio Code yang membantu Anda dengan mudah berpindah semua jalu
 
 ## 🛠️ Perkembangan
 
-Kompilasi Skrip Ketik:
+Kompilasi TypeScript:
 
 ```bash
 npm run compile
 ```
 
-Kode serat:
+Lint kode:
 
 ```bash
 npm run lint
@@ -124,7 +124,7 @@ npm test
 2. Jalankan `npm install` untuk menginstal dependensi.
 3. Lakukan perubahan Anda.
 4. Kompilasi TypeScript: `npm run compile`.
-5. Uji di VS Code (tekan **F5** → Extension Development Host).
+5. Uji di VS Code (tekan **F5** → Host Pengembangan Ekstensi).
 6. Kirim Permintaan Tarik.
 
 ---
@@ -137,4 +137,4 @@ Laporkan masalah di [GitHub Issues page](https://github.com/fatonyahmadfauzi/Pat
 
 ## 🧾 Lisensi
 
-Lisensi SAYA © [Fatony Ahmad Fauzi](../../LICENSE)
+MIT License © [Fatony Ahmad Fauzi](../../LICENSE)

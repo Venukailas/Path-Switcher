@@ -10,31 +10,31 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 Disponible dans d'autres langues : [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
+> 🌐 Disponible dans d'autres langues : [English](../../README.md) | [Deutsch](README-DE.md) | [Español](README-ES.md) | [Bahasa Indonesia](README-ID.md) | [日本語](README-JP.md) | [한국어](README-KO.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
-Une extension Visual Studio Code qui vous aide à basculer facilement tous les chemins d'un fichier (HTML, CSS, JS, images, etc.) entre **relative paths** ↔️ **absolute paths** avec un seul raccourci clavier.
+Une extension Visual Studio Code qui vous aide à basculer facilement tous les chemins d'un fichier (HTML, CSS, JS, images, etc.) entre les **chemins relatifs** ↔️ **chemins absolus** avec un seul raccourci clavier.
 
 ---
 
 ## ✨ Caractéristiques
 
 - 🔁 Bascule automatiquement entre les chemins relatifs et absolus.
-- 💡 Prend en charge les chemins dans :
+- 💡 Prend en charge les chemins dans:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - `url("...")` dans CSS
+  - `url("...")` à l'intérieur de CSS
 - ⚡ Déclenché via un raccourci clavier.
 - 🧭 Modifie tous les chemins d'un fichier à la fois.
 
 ---
 
-## ✅ Versions de code VS prises en charge
+## ✅Versions VS Code prises en charge
 
-- Version minimale : **1.85.0**
-- Testé sur **Windows**, **macOS** et **Linux**.
+- Version minimale: **1.85.0**
+- Testé sur **Windows**, **macOS** and **Linux**.
 
 ---
 
@@ -43,34 +43,34 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 ### Depuis Marketplace (recommandé)
 
 1. Ouvrez **Visual Studio Code**.
-2. Accédez à la vue **Extensions** (`Ctrl+Shift+X`).
+2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
 3. Recherchez `Path Switcher`.
-4. Cliquez sur **Install**.
+4. Cliquez sur **Installer**.
 
 ### Pour le développement (à partir du code source)
 
-1. Clonez ce référentiel :
+1. Clonez ce référentiel:
     ```bash
     git clone [clone https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
     cd Path Switcher
     npm install
     ```
 2. Ouvrez le dossier dans VS Code.
-3. Appuyez sur **F5** pour lancer le **Extension Development Host**.
+3. Appuyez sur **F5** pour lancer **Extension Development Host**.
 
 ---
 
 ## ⌨️ Commandes et raccourcis
 
-| Nom de la commande | ID de commande | Raccourci |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| Basculer Relatif ↔️ Absolu | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 Exemple
 
-**Before:**
+**Avant:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -78,7 +78,7 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 <img src="assets/logo.png" />
 ```
 
-**After (Absolute):**
+**Après (absolu):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -86,7 +86,7 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 <img src="/assets/logo.png" />
 ```
 
-**After (Relative):**
+**Après (relatif):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -98,19 +98,19 @@ Une extension Visual Studio Code qui vous aide à basculer facilement tous les c
 
 ## 🛠️ Développement
 
-Compiler TypeScript :
+Compilez TypeScript:
 
 ```bash
 npm run compile
 ```
 
-Code charpie :
+Code Lint:
 
 ```bash
 npm run lint
 ```
 
-Exécutez des tests :
+Exécutez des tests:
 
 ```bash
 npm test
@@ -123,7 +123,7 @@ npm test
 1. Forkez le référentiel.
 2. Exécutez `npm install` pour installer les dépendances.
 3. Effectuez vos modifications.
-4. Compilez TypeScript : `npm run compile`.
+4. Compilez TypeScript: `npm run compile`.
 5. Testez dans VS Code (appuyez sur **F5** → Extension Development Host).
 6. Soumettez une demande de tirage.
 
@@ -137,4 +137,4 @@ Signalez les problèmes sur le [GitHub Issues page](https://github.com/fatonyahm
 
 ## 🧾 Licence
 
-MA Licence © [Fatony Ahmad Fauzi](../../LICENSE)
+MIT License © [Fatony Ahmad Fauzi](../../LICENSE)

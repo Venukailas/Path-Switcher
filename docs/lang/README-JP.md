@@ -10,11 +10,11 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 他の言語でも利用可能: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
+> 🌐 他の言語でも利用可能: [English](../../README.md) | [Deutsch](README-DE.md) | [Español](README-ES.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [한국어](README-KO.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
-ファイル内のすべてのパス (HTML、CSS、JS、画像など) を **relative paths** ↔️ **absolute paths** の間で 1 つのキーボード ショートカットだけで簡単に切り替えることができる Visual Studio Code 拡張機能。
+Visual Studio Code 拡張機能は、ファイル内のすべてのパス (HTML、CSS、JS、画像など) を **相対パス** ↔️ **絶対パス** の間で 1 つのキーボード ショートカットだけで簡単に切り替えることができます。
 
 ---
 
@@ -31,7 +31,7 @@
 
 ---
 
-## ✅ サポートされている VS コードのバージョン
+## ✅ サポートされている VS Code バージョン
 
 - 最小バージョン: **1.85.0**
 - **Windows**、**macOS**、および **Linux** でテスト済み。
@@ -43,9 +43,9 @@
 ### マーケットプレイスから (推奨)
 
 1. **Visual Studio Code** を開きます。
-2. **Extensions** ビュー (`Ctrl+Shift+X`) に移動します。
+2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
 3. `Path Switcher` を検索します。
-4. 「**Install**」をクリックします。
+4. [**インストール**] をクリックします。
 
 ### 開発用 (ソースコードから)
 
@@ -55,22 +55,22 @@
     cd Path Switcher
     npm install
     ```
-2. VS Code でフォルダーを開きます。
-3. **F5** を押して **Extension Development Host** を起動します。
+2. VS Code のフォルダーを開きます。
+3. **F5** を押して、**拡張開発ホスト**を起動します。
 
 ---
 
 ## ⌨️ コマンドとショートカット
 
-|コマンド名 |コマンドID |ショートカット |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-|相対 ↔️ 絶対を切り替え | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 例
 
-**Before:**
+**前に：**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -78,7 +78,7 @@
 <img src="assets/logo.png" />
 ```
 
-**After (Absolute):**
+**後 (絶対):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -86,7 +86,7 @@
 <img src="/assets/logo.png" />
 ```
 
-**After (Relative):**
+**後 (相対):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -104,7 +104,7 @@ TypeScript をコンパイルします。
 npm run compile
 ```
 
-lint コード:
+Lint コード:
 
 ```bash
 npm run lint
@@ -123,18 +123,18 @@ npm test
 1. リポジトリをフォークします。
 2. `npm install` を実行して依存関係をインストールします。
 3. 変更を加えます。
-4. TypeScript をコンパイルします: `npm run compile`。
-5. VS Code でテストします (**F5** → 拡張機能開発ホストを押します)。
+4. TypeScript: `npm run compile` をコンパイルします。
+5. VS Code でテストします (**F5** を押して → 拡張機能開発ホスト)。
 6. プルリクエストを送信します。
 
 ---
 
 ## 🐞 バグと問題
 
-[GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) に関する問題を報告してください。
+[GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) で問題を報告してください。
 
 ---
 
 ## 🧾 ライセンス
 
-私のライセンス © [Fatony Ahmad Fauzi](../../LICENSE)
+MIT License © [ファトニー・アーマド・ファウジ](../../LICENSE)

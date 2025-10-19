@@ -10,11 +10,11 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 Disponible en otros idiomas: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
+> 🌐 Disponible en otros idiomas: [English](../../README.md) | [Deutsch](README-DE.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [日本語](README-JP.md) | [한국어](README-KO.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
-Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas las rutas de un archivo (HTML, CSS, JS, imágenes, etc.) entre **relative paths** ↔️ **absolute paths** con un solo método abreviado de teclado.
+Una extensión Visual Studio Code que le ayuda a cambiar fácilmente todas las rutas de un archivo (HTML, CSS, JS, imágenes, etc.) entre **rutas relativas** ↔️ **rutas absolutas** con un solo atajo de teclado.
 
 ---
 
@@ -31,10 +31,10 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
 
 ---
 
-## ✅ Versiones de código VS compatibles
+## ✅ Versiones VS Code compatibles
 
 - Versión mínima: **1.85.0**
-- Probado en **Windows**, **macOS** y **Linux**.
+- Probado en **Windows**, **macOS** and **Linux**.
 
 ---
 
@@ -43,9 +43,9 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
 ### Desde Marketplace (recomendado)
 
 1. Abra **Visual Studio Code**.
-2. Vaya a la vista **Extensions** (`Ctrl+Shift+X`).
+2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
 3. Busque `Path Switcher`.
-4. Haga clic en **Install**.
+4. Haga clic en **Instalar**.
 
 ### Para desarrollo (a partir del código fuente)
 
@@ -56,21 +56,21 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
     npm install
     ```
 2. Abra la carpeta en VS Code.
-3. Presione **F5** para iniciar **Extension Development Host**.
+3. Presione **F5** para iniciar el **Host de desarrollo de extensiones**.
 
 ---
 
 ## ⌨️ Comandos y atajos
 
-| Nombre del comando | ID de comando | Atajo |
+| Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
-| Alternar Relativo ↔️ Absoluto | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
 ## 🧠 Ejemplo
 
-**Before:**
+**Antes:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -78,7 +78,7 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
 <img src="assets/logo.png" />
 ```
 
-**After (Absolute):**
+**Después (Absoluto):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -86,7 +86,7 @@ Una extensión de Visual Studio Code que le ayuda a cambiar fácilmente todas la
 <img src="/assets/logo.png" />
 ```
 
-**After (Relative):**
+**Después (relativo):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -104,7 +104,7 @@ Compilar TypeScript:
 npm run compile
 ```
 
-Código de pelusa:
+Código Lint:
 
 ```bash
 npm run lint
@@ -124,7 +124,7 @@ npm test
 2. Ejecute `npm install` para instalar dependencias.
 3. Realice sus cambios.
 4. Compile TypeScript: `npm run compile`.
-5. Pruebe en VS Code (presione **F5** → Extension Development Host).
+5. Pruebe en VS Code (presione **F5** → Host de desarrollo de extensiones).
 6. Envíe una solicitud de extracción.
 
 ---
@@ -137,4 +137,4 @@ Informar problemas en [GitHub Issues page](https://github.com/fatonyahmadfauzi/P
 
 ## 🧾 Licencia
 
-MI licencia © [Fatony Ahmad Fauzi](../../LICENSE)
+MIT License © [Fatony Ahmad Fauzi](../../LICENSE)
