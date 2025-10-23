@@ -10,57 +10,57 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 다른 언어로도 사용 가능: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md)
+> 🌐 Available in other languages: [English](../../README.md) | [Deutsch](README-DE.md) | [Español](README-ES.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [日本語](README-JP.md) | [한국어](README-KR.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
-하나의 키보드 단축키로 파일의 모든 경로(HTML, CSS, JS, 이미지 등)를 **상대 경로** ⇔ **절대 경로** 간에 쉽게 전환할 수 있도록 도와주는 Visual Studio Code 확장입니다.
+A Visual Studio Code extension that helps you easily switch all paths in a file (HTML, CSS, JS, images, etc.) between **relative paths** ↔️ **absolute paths** with just one keyboard shortcut.
 
 ---
 
-## ✨ 특징
+## ✨ Features
 
-- 🔁 상대 경로와 절대 경로 사이를 자동으로 전환합니다.
-- 💡 다음 경로를 지원합니다:
+- 🔁 Automatically toggles between relative and absolute paths.
+- 💡 Supports paths in:
   - `<script src="...">`
   - `<link href="...">`
   - `<img src="...">`
-  - CSS 내부의 `url("...")`
-- ⚡ 키보드 단축키를 통해 실행됩니다.
-- 🧭 파일의 모든 경로를 한 번에 변경합니다.
+  - `url("...")` inside CSS
+- ⚡ Triggered via keyboard shortcut.
+- 🧭 Changes all paths in a file at once.
 
 ---
 
-## ✅ 지원되는 VS Code 버전
+## ✅ Supported VS Code Versions
 
-- 최소 버전: **1.85.0**
-- **Windows**, **macOS** 및 **Linux**에서 테스트되었습니다.
+- Minimum version: **1.85.0**
+- Tested on **Windows**, **macOS** and **Linux**.
 
 ---
 
-## 🧩 설치
+## 🧩 Installation
 
-### 마켓플레이스에서(권장)
+### From Marketplace (Recommended)
 
-1. **Visual Studio Code**을 엽니다.
+1.  Open **Visual Studio Code**.
 2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
-3. `Path Switcher`을(를) 검색하세요.
-4. **설치**를 클릭합니다.
+3.  Search for `Path Switcher`.
+4.  Click **Install**.
 
-### 개발용(소스 코드에서)
+### For Development (from Source Code)
 
-1. 이 저장소를 복제합니다.
+1.  Clone this repository:
     ```bash
     git clone [clone https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
     cd Path Switcher
     npm install
     ```
-2. VS Code에서 폴더를 엽니다.
-3. **F5**를 눌러 **확장 개발 호스트**를 시작합니다.
+2.  Open the folder in VS Code.
+3.  Press **F5** to launch the **Extension Development Host**.
 
 ---
 
-## ⌨️ 명령 및 단축키
+## ⌨️ Commands & Shortcuts
 
 | Command Name                | Command ID                 | Shortcut         |
 | --------------------------- | -------------------------- | ---------------- |
@@ -68,9 +68,9 @@
 
 ---
 
-## 🧠 예
+## 🧠 Example
 
-**전에:**
+**Before:**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -78,7 +78,7 @@
 <img src="assets/logo.png" />
 ```
 
-**이후(절대):**
+**After (Absolute):**
 
 ```html
 <script src="/js/meta-update.js"></script>
@@ -86,7 +86,7 @@
 <img src="/assets/logo.png" />
 ```
 
-**이후(상대적):**
+**After (Relative):**
 
 ```html
 <script src="js/meta-update.js"></script>
@@ -96,21 +96,21 @@
 
 ---
 
-## 🛠️ 개발
+## 🛠️ Development
 
-TypeScript 컴파일:
+Compile TypeScript:
 
 ```bash
 npm run compile
 ```
 
-Lint 코드:
+Lint code:
 
 ```bash
 npm run lint
 ```
 
-테스트 실행:
+Run tests:
 
 ```bash
 npm test
@@ -118,23 +118,31 @@ npm test
 
 ---
 
-## 🧑‍💻 기여
+## 🧑‍💻 Contributing
 
-1. 저장소를 포크하십시오.
-2. `npm install`을 실행하여 종속성을 설치합니다.
-3. 변경합니다.
-4. TypeScript: `npm run compile`을 컴파일합니다.
-5. VS Code에서 테스트합니다(**F5** → 확장 개발 호스트 누르기).
-6. 풀 요청(Pull Request)을 제출하세요.
-
----
-
-## 🐞 버그 및 문제
-
-[GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues)에 대한 문제를 보고하세요.
+1. Fork the repository.
+2. Run `npm install` to install dependencies.
+3. Make your changes.
+4. Compile TypeScript: `npm run compile`.
+5. Test in VS Code (press **F5** → Extension Development Host).
+6. Submit a Pull Request.
 
 ---
 
-## 🧾 라이센스
+## 🐞 Bugs & Issues
+
+Report issues on the [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+
+---
+
+## 🧾 Changelog
+
+See all notable changes for each version in the [Changelog](CHANGELOG-EN.md) file.
+
+> 📦 You can also view release notes directly on the [GitHub Releases page](https://github.com/fatonyahmadfauzi/Path-Switcher/releases).
+
+---
+
+## 🧾 License
 
 MIT License © [Fatony Ahmad Fauzi](../../LICENSE)

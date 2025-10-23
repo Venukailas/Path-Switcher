@@ -10,7 +10,7 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 Available in other languages: [Bahasa Indonesia](docs/lang/README-ID.md) | [Français](docs/lang/README-FR.md) | [Deutsch](docs/lang/README-DE.md) | [日本語](docs/lang/README-JP.md) | [中文](docs/lang/README-ZH.md) | [Español](docs/lang/README-ES.md) | [Polski](docs/lang/README-PL.md) | [Русский](docs/lang/README-RU.md) | [Português](docs/lang/README-PT.md) | [한국어](docs/lang/README-KO.md)
+> 🌐 Available in other languages: [English](docs/lang/README-EN.md) | [Bahasa Indonesia](docs/lang/README-ID.md) | [Français](docs/lang/README-FR.md) | [Deutsch](docs/lang/README-DE.md) | [日本語](docs/lang/README-JP.md) | [中文](docs/lang/README-ZH.md) | [Español](docs/lang/README-ES.md) | [Polski](docs/lang/README-PL.md) | [Русский](docs/lang/README-RU.md) | [Português](docs/lang/README-PT.md) | [한국어](docs/lang/README-KR.md)
 
 ---
 
@@ -132,6 +132,14 @@ npm test
 ## 🐞 Bugs & Issues
 
 Report issues on the [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+
+---
+
+## 🧾 Changelog
+
+See all notable changes for each version in the [CHANGELOG.md](CHANGELOG.md) file.
+
+> 📦 You can also view release notes directly on the [GitHub Releases page](https://github.com/fatonyahmadfauzi/Path-Switcher/releases).
 
 ---
 

@@ -10,7 +10,7 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 Tersedia dalam bahasa lain: [English](../../README.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
+> 🌐 Tersedia dalam bahasa lain: [English](../../README.md) | [Deutsch](README-DE.md) | [English](README-EN.md) | [Español](README-ES.md) | [Français](README-FR.md) | [日本語](README-JP.md) | [한국어](README-KR.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
@@ -132,6 +132,14 @@ npm test
 ## 🐞 Bug & Masalah
 
 Laporkan masalah di [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+
+---
+
+## 🧾 Catatan Perubahan
+
+Lihat semua perubahan penting untuk setiap versi di file [log perubahan](CHANGELOG-ID.md).
+
+> 📦 Anda juga dapat melihat catatan rilis langsung di [GitHub Releases page](https://github.com/fatonyahmadfauzi/Path-Switcher/releases).
 
 ---
 

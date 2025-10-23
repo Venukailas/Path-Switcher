@@ -10,7 +10,7 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 Disponível em outros idiomas: [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [中文](README-ZH.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [한국어](README-KO.md)
+> 🌐 Disponível em outros idiomas: [English](../../README.md) | [Deutsch](README-DE.md) | [English](README-EN.md) | [Español](README-ES.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [日本語](README-JP.md) | [한국어](README-KR.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
 
 ---
 
@@ -132,6 +132,14 @@ npm test
 ## 🐞 Bugs e problemas
 
 Relate problemas no [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
+
+---
+
+## 🧾 Registro de alterações
+
+Veja todas as alterações notáveis ​​para cada versão no arquivo [Registro de alterações](CHANGELOG-PT.md).
+
+> 📦 Você também pode visualizar as notas de lançamento diretamente no [GitHub Releases page](https://github.com/fatonyahmadfauzi/Path-Switcher/releases).
 
 ---
 

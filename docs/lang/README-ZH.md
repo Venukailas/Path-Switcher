@@ -10,7 +10,7 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 提供其他语言版本： [English](../../README.md) | [Bahasa Indonesia](README-ID.md) | [Français](README-FR.md) | [Deutsch](README-DE.md) | [日本語](README-JP.md) | [Español](README-ES.md) | [Polski](README-PL.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [한국어](README-KO.md)
+> 🌐 提供其他语言版本： [English](../../README.md) | [Deutsch](README-DE.md) | [English](README-EN.md) | [Español](README-ES.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [日本語](README-JP.md) | [한국어](README-KR.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md)
 
 ---
 
@@ -132,6 +132,14 @@ npm test
 ## 🐞 错误和问题
 
 在 [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues) 上报告问题。
+
+---
+
+## 🧾 变更日志
+
+在 [变更日志](CHANGELOG-ZH.md) 文件中查看每个版本的所有显着更改。
+
+> 📦 您还可以直接在 [GitHub Releases page](https://github.com/fatonyahmadfauzi/Path-Switcher/releases) 上查看发行说明。
 
 ---
 
