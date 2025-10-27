@@ -21,7 +21,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.9] - 2025-10-15
 
-### Fixé
+### Corrigé
 
 - Correction d'un problème où les `CHANGELOG.md` et `README.md` ne s'affichaient pas sur le marché VS Code.
 

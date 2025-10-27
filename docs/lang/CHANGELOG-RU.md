@@ -13,7 +13,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.1.0] - 2025-10-17
 
-### Измененный
+### Изменено
 
 — Обновлена ​​и улучшена документация в файле `README.md`.
 
@@ -21,7 +21,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.9] - 2025-10-15
 
-### Зафиксированный
+### Исправлено
 
 - Исправлена ​​проблема, из-за которой `CHANGELOG.md` и `README.md` не отображались на торговой площадке VS Code.
 
@@ -29,15 +29,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.8] - 2025-10-14
 
-### Измененный
+### Изменено
 
-- Оптимизировано расширение за счет исключения ненужных файлов из пакета, в результате чего размер стал меньше, а установка быстрее.
+- Оптимизировано расширение за счет исключения ненужных файлов из пакета, что привело к уменьшению размера и ускорению установки.
 
 ---
 
 ## [1.0.7] - 2025-10-14
 
-### Добавлен
+### Добавлено
 
 - Добавлен `CHANGELOG.md` для документирования истории версий.
 
@@ -45,7 +45,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.6] - 2025-10-14
 
-### Добавлен
+### Добавлено
 
 - В файл `README.md` добавлены информационные значки.
 
@@ -53,7 +53,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.5] - 2025-10-14
 
-### Добавлен
+### Добавлено
 
 - Добавлены многоязычные файлы README для международных пользователей.
 
@@ -61,7 +61,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.4] - 2025-10-13
 
-### Удаленный
+### Удалено
 
 — Удалены команды `path-switcher.toAbsolute` и `path-switcher.toRelative`.
 - Удалены привязки клавиш `Ctrl + Alt + A` и `Ctrl + Alt + R`.
@@ -70,14 +70,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.3] - 2025-10-12
 
-### Измененный
+### Изменено
 
-- Изменено имя издателя с «kianoland» на «fatonyahmadfauzi».
+- Название издателя изменено с «кианоланд» на «фатоньяхмадфаузи».
 
 ---
 
 ## [1.0.2] - 2025-10-11
 
-### Добавлен
+### Добавлено
 
 - Первоначальный публичный выпуск Path Switcher.

@@ -13,7 +13,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.1.0] - 2025-10-17
 
-### Mudado
+### Alterado
 
 - Documentação atualizada e melhorada no arquivo `README.md`.
 
@@ -21,7 +21,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.9] - 2025-10-15
 
-### Fixo
+### Corrigido
 
 - Corrigido um problema em que `CHANGELOG.md` e `README.md` não eram exibidos no VS Code Marketplace.
 
@@ -29,7 +29,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.8] - 2025-10-14
 
-### Mudado
+### Alterado
 
 - Otimizou a extensão excluindo arquivos desnecessários do pacote, resultando em um tamanho menor e instalação mais rápida.
 
@@ -70,7 +70,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.3] - 2025-10-12
 
-### Mudado
+### Alterado
 
 - Alterado o nome da editora de "kianoland" para "fatonyahmadfauzi".
 

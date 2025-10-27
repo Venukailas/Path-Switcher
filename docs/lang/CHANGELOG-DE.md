@@ -61,7 +61,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.4] - 2025-10-13
 
-### ENTFERNT
+### Entfernt
 
 – Die Befehle `path-switcher.toAbsolute` und `path-switcher.toRelative` wurden entfernt.
 - Die Tastenkombinationen `Ctrl + Alt + A` und `Ctrl + Alt + R` wurden entfernt.

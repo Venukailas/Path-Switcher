@@ -21,7 +21,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.9] - 2025-10-15
 
-### Naprawił
+### Naprawiono
 
 - Naprawiono problem polegający na tym, że `CHANGELOG.md` i `README.md` nie były wyświetlane na rynku VS Code.
 
@@ -61,7 +61,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.4] - 2025-10-13
 
-### REMOVED
+### Usunięto
 
 - Usunięto polecenia `path-switcher.toAbsolute` i `path-switcher.toRelative`.
 - Usunięto skróty klawiszowe `Ctrl + Alt + A` i `Ctrl + Alt + R`.

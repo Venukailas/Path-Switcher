@@ -13,7 +13,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.1.0] - 2025-10-17
 
-### Berubah
+### Diubah
 
 - Dokumentasi yang diperbarui dan ditingkatkan dalam file `README.md`.
 
@@ -21,7 +21,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.9] - 2025-10-15
 
-### Tetap
+### Diperbaiki
 
 - Memperbaiki masalah ketika `CHANGELOG.md` dan `README.md` tidak ditampilkan di Pasar VS Code.
 
@@ -29,7 +29,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.8] - 2025-10-14
 
-### Berubah
+### Diubah
 
 - Mengoptimalkan ekstensi dengan mengecualikan file yang tidak diperlukan dari paket, menghasilkan ukuran lebih kecil dan instalasi lebih cepat.
 
@@ -61,7 +61,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.4] - 2025-10-13
 
-### DIHAPUS
+### Dihapus
 
 - Menghapus perintah `path-switcher.toAbsolute` dan `path-switcher.toRelative`.
 - Menghapus ikatan kunci `Ctrl + Alt + A` dan `Ctrl + Alt + R`.
@@ -70,7 +70,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.3] - 2025-10-12
 
-### Berubah
+### Diubah
 
 - Mengubah nama penerbit dari "kianoland" menjadi "fatonyahmadfauzi".
 

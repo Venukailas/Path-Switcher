@@ -10,7 +10,7 @@
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 [![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
 
-> 🌐 他の言語でも利用可能: [English](../../README.md) | [Deutsch](README-DE.md) | [English](README-EN.md) | [Español](README-ES.md) | [Français](README-FR.md) | [Bahasa Indonesia](README-ID.md) | [한국어](README-KR.md) | [Polski](README-PL.md) | [Português](README-PT.md) | [Русский](README-RU.md) | [中文](README-ZH.md)
+> 🌐 他の言語でも利用可能: [English](../../README.md) | [Polski](README-PL.md) | [中文](README-ZH.md) | [Deutsch](README-DE.md) | [Français](README-FR.md) | [Español](README-ES.md) | [Русский](README-RU.md) | [Português](README-PT.md) | [Bahasa Indonesia](README-ID.md) | [한국어](README-KR.md)
 
 ---
 
@@ -34,7 +34,7 @@ Visual Studio Code 拡張機能は、ファイル内のすべてのパス (HTML�
 ## ✅ サポートされている VS Code バージョン
 
 - 最小バージョン: **1.85.0**
-- **Windows**、**macOS**、および **Linux** でテスト済み。
+- **Windows**、**macOS**、**Linux** でテスト済み。
 
 ---
 
@@ -62,9 +62,9 @@ Visual Studio Code 拡張機能は、ファイル内のすべてのパス (HTML�
 
 ## ⌨️ コマンドとショートカット
 
-| Command Name                | Command ID                 | Shortcut         |
-| --------------------------- | -------------------------- | ---------------- |
-| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
+| コマンド名 | コマンドID | ショートカット |
+| --- | --- | --- |
+| 相対 ↔️ 絶対を切り替え | `path-switcher.togglePath` | `Ctrl + Alt + P` |
 
 ---
 
