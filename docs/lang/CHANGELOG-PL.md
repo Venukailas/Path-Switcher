@@ -8,12 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-
 ---
 
 ## [1.1.0] - 2025-10-17
 
-### Zmieniono
+### Changed
 
 - Zaktualizowana i ulepszona dokumentacja w pliku `README.md`.
 
@@ -21,7 +20,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.9] - 2025-10-15
 
-### Naprawiono
+### Fixed
 
 - Naprawiono problem polegający na tym, że `CHANGELOG.md` i `README.md` nie były wyświetlane na rynku VS Code.
 
@@ -29,7 +28,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.8] - 2025-10-14
 
-### Zmieniono
+### Changed
 
 - Zoptymalizowano rozszerzenie, wykluczając niepotrzebne pliki z pakietu, co skutkowało mniejszym rozmiarem i szybszą instalacją.
 
@@ -37,7 +36,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.7] - 2025-10-14
 
-### Dodano
+### Added
 
 - Dodano `CHANGELOG.md` w celu udokumentowania historii wersji.
 
@@ -45,7 +44,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.6] - 2025-10-14
 
-### Dodano
+### Added
 
 - Dodano plakietki informacyjne do pliku `README.md`.
 
@@ -53,7 +52,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.5] - 2025-10-14
 
-### Dodano
+### Added
 
 - Dodano wielojęzyczne pliki README dla użytkowników międzynarodowych.
 
@@ -61,7 +60,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.4] - 2025-10-13
 
-### Usunięto
+### Removed
 
 - Usunięto polecenia `path-switcher.toAbsolute` i `path-switcher.toRelative`.
 - Usunięto skróty klawiszowe `Ctrl + Alt + A` i `Ctrl + Alt + R`.
@@ -70,7 +69,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.3] - 2025-10-12
 
-### Zmieniono
+### Changed
 
 - Zmieniono nazwę wydawcy z „kianoland” na „fatonyahmadfauzi”.
 
@@ -78,6 +77,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.2] - 2025-10-11
 
-### Dodano
+### Added
 
-- Pierwsza publiczna wersja Path Switcher.
+- Pierwsze publiczne wydanie Path Switcher.

@@ -8,36 +8,35 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-
 ---
 
 ## [1.1.0] - 2025-10-17
 
-### Geändert
+### Changed
 
-– Aktualisierte und verbesserte Dokumentation in der Datei `README.md`.
+- Aktualisierte und verbesserte Dokumentation in der Datei `README.md`.
 
 ---
 
 ## [1.0.9] - 2025-10-15
 
-### Behoben
+### Fixed
 
-– Es wurde ein Problem behoben, bei dem `CHANGELOG.md` und `README.md` nicht auf dem Marktplatz VS Code angezeigt wurden.
+- Es wurde ein Problem behoben, bei dem `CHANGELOG.md` und `README.md` nicht auf dem Marktplatz VS Code angezeigt wurden.
 
 ---
 
 ## [1.0.8] - 2025-10-14
 
-### Geändert
+### Changed
 
-– Die Erweiterung wurde optimiert, indem unnötige Dateien aus dem Paket ausgeschlossen wurden, was zu einer kleineren Größe und einer schnelleren Installation führte.
+- Die Erweiterung wurde optimiert, indem unnötige Dateien aus dem Paket ausgeschlossen wurden, was zu einer kleineren Größe und einer schnelleren Installation führte.
 
 ---
 
 ## [1.0.7] - 2025-10-14
 
-### Hinzugefügt
+### Added
 
 - `CHANGELOG.md` hinzugefügt, um den Versionsverlauf zu dokumentieren.
 
@@ -45,7 +44,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.6] - 2025-10-14
 
-### Hinzugefügt
+### Added
 
 - Informationsabzeichen zur Datei `README.md` hinzugefügt.
 
@@ -53,7 +52,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.5] - 2025-10-14
 
-### Hinzugefügt
+### Added
 
 - Mehrsprachige READMEs für internationale Benutzer hinzugefügt.
 
@@ -61,16 +60,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.4] - 2025-10-13
 
-### Entfernt
+### Removed
 
-– Die Befehle `path-switcher.toAbsolute` und `path-switcher.toRelative` wurden entfernt.
+- Die Befehle `path-switcher.toAbsolute` und `path-switcher.toRelative` wurden entfernt.
 - Die Tastenkombinationen `Ctrl + Alt + A` und `Ctrl + Alt + R` wurden entfernt.
 
 ---
 
 ## [1.0.3] - 2025-10-12
 
-### Geändert
+### Changed
 
 - Verlagsname von „kianoland“ in „fatonyahmadfauzi“ geändert.
 
@@ -78,6 +77,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.2] - 2025-10-11
 
-### Hinzugefügt
+### Added
 
 - Erste öffentliche Veröffentlichung von Path Switcher.

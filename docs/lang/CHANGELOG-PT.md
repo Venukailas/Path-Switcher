@@ -8,20 +8,19 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-
 ---
 
 ## [1.1.0] - 2025-10-17
 
-### Alterado
+### Changed
 
-- Documentação atualizada e melhorada no arquivo `README.md`.
+- Documentação atualizada e aprimorada no arquivo `README.md`.
 
 ---
 
 ## [1.0.9] - 2025-10-15
 
-### Corrigido
+### Fixed
 
 - Corrigido um problema em que `CHANGELOG.md` e `README.md` não eram exibidos no VS Code Marketplace.
 
@@ -29,7 +28,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.8] - 2025-10-14
 
-### Alterado
+### Changed
 
 - Otimizou a extensão excluindo arquivos desnecessários do pacote, resultando em um tamanho menor e instalação mais rápida.
 
@@ -37,7 +36,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.7] - 2025-10-14
 
-### Adicionado
+### Added
 
 - Adicionado `CHANGELOG.md` para documentar o histórico da versão.
 
@@ -45,7 +44,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.6] - 2025-10-14
 
-### Adicionado
+### Added
 
 - Adicionados emblemas informativos ao arquivo `README.md`.
 
@@ -53,7 +52,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.5] - 2025-10-14
 
-### Adicionado
+### Added
 
 - Adicionados READMEs multilíngues para usuários internacionais.
 
@@ -61,23 +60,23 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.4] - 2025-10-13
 
-### Removido
+### Removed
 
-- Removidos os comandos `path-switcher.toAbsolute` e `path-switcher.toRelative`.
-- Removido os atalhos de teclado `Ctrl + Alt + A` e `Ctrl + Alt + R`.
+- Os comandos `path-switcher.toAbsolute` e `path-switcher.toRelative` foram removidos.
+- Removidos os atalhos de teclado `Ctrl + Alt + A` e `Ctrl + Alt + R`.
 
 ---
 
 ## [1.0.3] - 2025-10-12
 
-### Alterado
+### Changed
 
-- Alterado o nome da editora de "kianoland" para "fatonyahmadfauzi".
+- Nome do editor alterado de "kianoland" para "fatonyahmadfauzi".
 
 ---
 
 ## [1.0.2] - 2025-10-11
 
-### Adicionado
+### Added
 
 - Lançamento público inicial do Path Switcher.

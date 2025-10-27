@@ -8,12 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-
 ---
 
 ## [1.1.0] - 2025-10-17
 
-### 更改
+### Changed
 
 - 更新和改进了 `README.md` 文件中的文档。
 
@@ -21,7 +20,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.9] - 2025-10-15
 
-### 修复
+### Fixed
 
 - 修复了 `CHANGELOG.md` 和 `README.md` 未在 VS Code Marketplace 上显示的问题。
 
@@ -29,7 +28,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.8] - 2025-10-14
 
-### 更改
+### Changed
 
 - 通过从包中排除不必要的文件来优化扩展，从而缩小尺寸并加快安装速度。
 
@@ -37,7 +36,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.7] - 2025-10-14
 
-### 新增
+### Added
 
 - 添加了 `CHANGELOG.md` 来记录版本历史记录。
 
@@ -45,7 +44,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.6] - 2025-10-14
 
-### 新增
+### Added
 
 - 向 `README.md` 文件添加了信息徽章。
 
@@ -53,7 +52,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.5] - 2025-10-14
 
-### 新增
+### Added
 
 - 为国际用户添加了多语言自述文件。
 
@@ -61,7 +60,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.4] - 2025-10-13
 
-### 移除
+### Removed
 
 - 删除了 `path-switcher.toAbsolute` 和 `path-switcher.toRelative` 命令。
 - 删除了 `Ctrl + Alt + A` 和 `Ctrl + Alt + R` 键绑定。
@@ -70,7 +69,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.3] - 2025-10-12
 
-### 更改
+### Changed
 
 - 将出版商名称从“kianoland”更改为“fatonyahmadfauzi”。
 
@@ -78,6 +77,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.2] - 2025-10-11
 
-### 新增
+### Added
 
 - 路径切换器的首次公开发布。

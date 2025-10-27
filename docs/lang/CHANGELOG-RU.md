@@ -8,20 +8,19 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-
 ---
 
 ## [1.1.0] - 2025-10-17
 
-### Изменено
+### Changed
 
-— Обновлена ​​и улучшена документация в файле `README.md`.
+- Обновлена ​​и улучшена документация в файле `README.md`.
 
 ---
 
 ## [1.0.9] - 2025-10-15
 
-### Исправлено
+### Fixed
 
 - Исправлена ​​проблема, из-за которой `CHANGELOG.md` и `README.md` не отображались на торговой площадке VS Code.
 
@@ -29,15 +28,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.8] - 2025-10-14
 
-### Изменено
+### Changed
 
-- Оптимизировано расширение за счет исключения ненужных файлов из пакета, что привело к уменьшению размера и ускорению установки.
+- Оптимизировано расширение за счет исключения ненужных файлов из пакета, что привело к уменьшению его размера и ускорению установки.
 
 ---
 
 ## [1.0.7] - 2025-10-14
 
-### Добавлено
+### Added
 
 - Добавлен `CHANGELOG.md` для документирования истории версий.
 
@@ -45,7 +44,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.6] - 2025-10-14
 
-### Добавлено
+### Added
 
 - В файл `README.md` добавлены информационные значки.
 
@@ -53,7 +52,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.5] - 2025-10-14
 
-### Добавлено
+### Added
 
 - Добавлены многоязычные файлы README для международных пользователей.
 
@@ -61,23 +60,23 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.4] - 2025-10-13
 
-### Удалено
+### Removed
 
-— Удалены команды `path-switcher.toAbsolute` и `path-switcher.toRelative`.
+- Удалены команды `path-switcher.toAbsolute` и `path-switcher.toRelative`.
 - Удалены привязки клавиш `Ctrl + Alt + A` и `Ctrl + Alt + R`.
 
 ---
 
 ## [1.0.3] - 2025-10-12
 
-### Изменено
+### Changed
 
-- Название издателя изменено с «кианоланд» на «фатоньяхмадфаузи».
+- Название издателя изменено с «kianoland» на «fatonyahmadfauzi».
 
 ---
 
 ## [1.0.2] - 2025-10-11
 
-### Добавлено
+### Added
 
-- Первоначальный публичный выпуск Path Switcher.
+- Первый публичный выпуск Path Switcher.
